@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or reference this frozen pre-disclosure repository, please cite it using the metadata below."
+title: "Aperture × PsiGuard — Waypoint T1–T275 Blind Comparative Study: Pre-Disclosure Snapshot"
+version: "pre-disclosure-v0.1"
+date-released: "2026-10-19"
+authors:
+  - family-names: "Asadi"
+    given-names: "Arjay"
+repository-code: "https://github.com/Substratex/aperture-psiguard-waypoint-blind-study"
+url: "https://github.com/Substratex/aperture-psiguard-waypoint-blind-study"
+abstract: >-
+  Frozen pre-disclosure research repository for the blind comparative study of
+  SubstrateX Aperture™ and PsiGuard on the Waypoint T1–T275 long-horizon
+  trajectory. The repository preserves the blind source, certified Aperture
+  Runtime Evidence record, 275-prefix prospective replay, result lock, identity
+  reconciliation, preservation artifacts, selected visual evidence surfaces,
+  Paper VIII pre-unblinding manuscript, and the Evidence-Horizon Sensitivity
+  discovery record. PsiGuard intervention and wandering coordinates had not
+  been disclosed to Aperture at the time of this snapshot.
+keywords:
+  - "SubstrateX Aperture"
+  - "PsiGuard"
+  - "Waypoint"
+  - "Longitudinal Computational Dynamics"
+  - "Runtime Evidence"
+  - "Evidence-Governed Computation"
+  - "Chronodynamics"
+  - "Evidence-Horizon Sensitivity"
+  - "prospective replay"
+  - "blind comparative validation"
