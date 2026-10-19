@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://substratex.ai/schemas/runtime-evidence/claim-revision-lineage.v0.1.json",
+  "title": "Runtime Evidence Claim Revision Lineage",
+  "description": "Proposed internal schema for preserving how an evidence-authorized claim evolves as its admissible evidence horizon expands.",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "claim_type",
+    "coordinate_system",
+    "history",
+    "terminal_state"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "claim_type": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "method_contract_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinate_system": {
+      "type": "string",
+      "enum": [
+        "source_turn",
+        "canonical_event",
+        "runtime_frame",
+        "symbolic_time",
+        "other"
+      ]
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_horizon",
+          "status"
+        ],
+        "properties": {
+          "evidence_horizon": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "unavailable",
+              "inactive",
+              "issued",
+              "sustained",
+              "strengthened",
+              "weakened",
+              "withdrawn",
+              "reissued",
+              "superseded"
+            ]
+          },
+          "claim_coordinate": {
+            "type": [
+              "integer",
+              "number",
+              "string",
+              "null"
+            ]
+          },
+          "claim_class": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence_label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_basis_hash": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authority_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "revision_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "method_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "terminal_state": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "claim_coordinate": {
+          "type": [
+            "integer",
+            "number",
+            "string",
+            "null"
+          ]
+        },
+        "evidence_horizon": {
+          "type": "integer"
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "first_issuance_horizon": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "persistent_issuance_horizon": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "persistence_lag": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "withdrawal_count": {
+          "type": "integer"
+        },
+        "reentry_count": {
+          "type": "integer"
+        },
+        "horizon_stability_ratio": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "coordinate_revision_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "terminal_agreement": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

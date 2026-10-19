@@ -1,0 +1,909 @@
+{
+  "schema": "substratex.aperture.prospective_engineering_acceptance.v1",
+  "aperture_release": "r.5.7.4",
+  "prefixes": [
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 1,
+      "prefix_source_sha256": "af248b822db8eac88a2606654c9f1f0be24ef289a40a28dbc29a5b7d9809d9de",
+      "source_event_lines": 2,
+      "structure": {
+        "canonical_events": 2,
+        "user_events": 1,
+        "assistant_events": 1,
+        "measurement_records": 1,
+        "incomplete_assistant_events": 0,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 1,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "1cfd3aaa73e80979c2f1d2118d3a825d0de08a8ebf0a296e86ff143b9f542ded",
+        "run_id": "APERTURE-CER-1cfd3aaa73e80"
+      },
+      "compute": {
+        "status": "not_computable",
+        "reason": "minimum_telemetry_evidence",
+        "required_measurements": 2,
+        "available_measurements": 1
+      },
+      "prospective": {
+        "warning_supported_now": false,
+        "candidate_supported_now": false,
+        "formal_exit_supported_now": false,
+        "current_regime": "unavailable",
+        "t_aw_reconstructed": null,
+        "t_candidate_reconstructed": null,
+        "t_star": null,
+        "t_star_confirmed": false
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": true
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 2,
+      "prefix_source_sha256": "2d1a6023bc07bc327a53beb5a86563c6fa060b37038f34907ef458b6cabf1ffb",
+      "source_event_lines": 4,
+      "structure": {
+        "canonical_events": 4,
+        "user_events": 2,
+        "assistant_events": 2,
+        "measurement_records": 2,
+        "incomplete_assistant_events": 0,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 2,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "1aecd54352d97b7744686cfc558881dc2477af82002d374620833f5d442f423e",
+        "run_id": "APERTURE-CER-1aecd54352d97"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 2,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-1aecd54352d97",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.5366506399409929,
+        "current_instability": 0.4633493600590071,
+        "current_drift": 0.6124151264048077,
+        "current_pressure": 0,
+        "current_kappa": 0,
+        "basin_exit_score": 0.36877597241407534,
+        "detector_basin_exit": {
+          "detected": true,
+          "t_star": 2,
+          "confidence": 0.85,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 2,
+        "current_regime": "Collapse",
+        "warning_supported_now": true,
+        "candidate_supported_now": true,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 2,
+        "prospective_candidate_issuance_turn": 2,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": 2,
+        "t_candidate_coordinate": "source_turn",
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": {
+          "start": 2,
+          "end": 2,
+          "turns": 0,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 25,
+      "prefix_source_sha256": "e131d07ad1da308eb3506fae44c06aced5e9a1ffec5827d7f2e76164a078ec70",
+      "source_event_lines": 50,
+      "structure": {
+        "canonical_events": 50,
+        "user_events": 25,
+        "assistant_events": 25,
+        "measurement_records": 24,
+        "incomplete_assistant_events": 1,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 25,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "83524aeaf56f7cd0bd425edeb8fd2675bcf4fa12f0932416bb9f2431c4ca6f26",
+        "run_id": "APERTURE-CER-83524aeaf56f7"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 24,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-83524aeaf56f7",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.41712475394171367,
+        "current_instability": 0.5828752460582863,
+        "current_drift": 0.6556456228855009,
+        "current_pressure": 0.1840109371412893,
+        "current_kappa": 0.7915435905513784,
+        "basin_exit_score": 0.46163719171343426,
+        "detector_basin_exit": {
+          "detected": true,
+          "t_star": 24,
+          "confidence": 0.85,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 25,
+        "current_regime": "Collapse",
+        "warning_supported_now": true,
+        "candidate_supported_now": true,
+        "formal_exit_supported_now": true,
+        "prospective_warning_issuance_turn": 25,
+        "prospective_candidate_issuance_turn": 25,
+        "prospective_formal_exit_issuance_turn": 25,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": 25,
+        "t_candidate_coordinate": "source_turn",
+        "t_star": 25,
+        "t_star_coordinate": "source_turn",
+        "t_star_confirmed": true,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": null,
+        "post_exit_observed_turns": {
+          "start": 25,
+          "end": 25,
+          "turns": 0,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 50,
+      "prefix_source_sha256": "cbff911b7b1f4ad88c0ac991d4e11cffbc6425225308838a67c1f088f021ecbf",
+      "source_event_lines": 100,
+      "structure": {
+        "canonical_events": 100,
+        "user_events": 50,
+        "assistant_events": 50,
+        "measurement_records": 49,
+        "incomplete_assistant_events": 1,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 50,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "c72fe0b45504869c54c431a30d19f25504712d95a64673b933acad5061e053bb",
+        "run_id": "APERTURE-CER-c72fe0b455048"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 49,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-c72fe0b455048",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.6227227129134068,
+        "current_instability": 0.3772772870865933,
+        "current_drift": 0.6607433221309703,
+        "current_pressure": 0.5332349952416022,
+        "current_kappa": 0.611852442224262,
+        "basin_exit_score": 0.4575274640088499,
+        "detector_basin_exit": {
+          "detected": false,
+          "t_star": null,
+          "confidence": null,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 50,
+        "current_regime": "Transitional",
+        "warning_supported_now": true,
+        "candidate_supported_now": true,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 50,
+        "prospective_candidate_issuance_turn": 50,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": 25,
+        "t_candidate_coordinate": "source_turn",
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": {
+          "start": 25,
+          "end": 50,
+          "turns": 25,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 100,
+      "prefix_source_sha256": "161a1fa2a8ab1d0492594df0bd3939592e0ac10f8018e03dc8701907e137214e",
+      "source_event_lines": 200,
+      "structure": {
+        "canonical_events": 200,
+        "user_events": 100,
+        "assistant_events": 100,
+        "measurement_records": 99,
+        "incomplete_assistant_events": 1,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 100,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "262c1ff384b9eb0802e691a0731840c7345c9b1327870010a8256a6f853771d2",
+        "run_id": "APERTURE-CER-262c1ff384b9e"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 99,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-262c1ff384b9e",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.51786724232353,
+        "current_instability": 0.48213275767646996,
+        "current_drift": 0.6183386635503446,
+        "current_pressure": 0.585058607453477,
+        "current_kappa": 0.18440842510601585,
+        "basin_exit_score": 0.4582351217301731,
+        "detector_basin_exit": {
+          "detected": false,
+          "t_star": null,
+          "confidence": null,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 100,
+        "current_regime": "Transitional",
+        "warning_supported_now": true,
+        "candidate_supported_now": false,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 100,
+        "prospective_candidate_issuance_turn": null,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": null,
+        "t_candidate_coordinate": null,
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": null,
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 150,
+      "prefix_source_sha256": "3e11b5f5abef4a8eac90f5661234f51f47e5ec2e9ac5c3c32c423089c1e91ab4",
+      "source_event_lines": 300,
+      "structure": {
+        "canonical_events": 300,
+        "user_events": 150,
+        "assistant_events": 150,
+        "measurement_records": 148,
+        "incomplete_assistant_events": 2,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 150,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "ffc3a8ccc3d39ff8f7275da85f715e8749ea46f3f3b3372906b6d7cf18d4a743",
+        "run_id": "APERTURE-CER-ffc3a8ccc3d39"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 148,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-ffc3a8ccc3d39",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.5434448053737548,
+        "current_instability": 0.45655519462624516,
+        "current_drift": 0.6142481932331892,
+        "current_pressure": 0.5694300958100715,
+        "current_kappa": 0.8791185498940806,
+        "basin_exit_score": 0.45749111671043813,
+        "detector_basin_exit": {
+          "detected": false,
+          "t_star": null,
+          "confidence": null,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 150,
+        "current_regime": "Transitional",
+        "warning_supported_now": true,
+        "candidate_supported_now": false,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 150,
+        "prospective_candidate_issuance_turn": null,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": null,
+        "t_candidate_coordinate": null,
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": null,
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 200,
+      "prefix_source_sha256": "82f1295a6e47498bea01465239283a1a13cc2d6e7997766c6dc24b7040c3aaf0",
+      "source_event_lines": 400,
+      "structure": {
+        "canonical_events": 400,
+        "user_events": 200,
+        "assistant_events": 200,
+        "measurement_records": 198,
+        "incomplete_assistant_events": 2,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 200,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "a1f22ff9f126a36eecb9228913d0ac94b827e77cbdeca0cd2e16caa8bec34398",
+        "run_id": "APERTURE-CER-a1f22ff9f126a"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 198,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-a1f22ff9f126a",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.5542845742886466,
+        "current_instability": 0.4457154257113533,
+        "current_drift": 0.6471875233722132,
+        "current_pressure": 0.46170737870760264,
+        "current_kappa": 0.6064258573870177,
+        "basin_exit_score": 0.4581365041826295,
+        "detector_basin_exit": {
+          "detected": false,
+          "t_star": null,
+          "confidence": null,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 200,
+        "current_regime": "Transitional",
+        "warning_supported_now": true,
+        "candidate_supported_now": true,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 200,
+        "prospective_candidate_issuance_turn": 200,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": 168,
+        "t_candidate_coordinate": "source_turn",
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": {
+          "start": 168,
+          "end": 200,
+          "turns": 32,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    },
+    {
+      "schema": "substratex.aperture.prospective_prefix_result.v1",
+      "aperture_release": "r.5.7.4",
+      "prefix_turn": 275,
+      "prefix_source_sha256": "5a66a0300bd6cfca74e0c0ff022944b1ec39eaa5f3ad254ac2aed7cc9a87f3e6",
+      "source_event_lines": 550,
+      "structure": {
+        "canonical_events": 550,
+        "user_events": 275,
+        "assistant_events": 275,
+        "measurement_records": 271,
+        "incomplete_assistant_events": 4,
+        "roles": [
+          "assistant",
+          "user"
+        ],
+        "first_source_turn": 1,
+        "last_source_turn": 275,
+        "no_future_leakage": true,
+        "exact_event_topology": true,
+        "coordinate_audit_pass": true,
+        "coordinate_issues": [],
+        "ingestion_errors": []
+      },
+      "identity": {
+        "canonical_hash": "f906ca496e167b8f67487804023a3ed536c3780d9376faca4044836ca34184e0",
+        "run_id": "APERTURE-CER-f906ca496e167"
+      },
+      "compute": {
+        "status": "computed",
+        "measurement_count": 271,
+        "method_contract_status": "pass",
+        "method_contract_pass": true,
+        "method_contract_count": 48,
+        "unsupported_outputs": 0,
+        "horizon_violations": 0,
+        "passport_state": "issued",
+        "passport_id": "APERTURE-CER-f906ca496e167",
+        "passport_method_conformance": "pass"
+      },
+      "telemetry": {
+        "current_phi": 0.6891615540422296,
+        "current_instability": 0.3108384459577704,
+        "current_drift": 0.5437194330842275,
+        "current_pressure": 0.23328512913546046,
+        "current_kappa": 0.64915801742194,
+        "basin_exit_score": 0.45571559174611326,
+        "detector_basin_exit": {
+          "detected": false,
+          "t_star": null,
+          "confidence": null,
+          "recovered": false
+        }
+      },
+      "prospective": {
+        "evidence_horizon_source_turn": 275,
+        "current_regime": "Transitional",
+        "warning_supported_now": true,
+        "candidate_supported_now": true,
+        "formal_exit_supported_now": false,
+        "prospective_warning_issuance_turn": 275,
+        "prospective_candidate_issuance_turn": 275,
+        "prospective_formal_exit_issuance_turn": null,
+        "t_aw_reconstructed": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_candidate_reconstructed": 25,
+        "t_candidate_coordinate": "source_turn",
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "tf": null,
+        "tf_supplied": false,
+        "delta_t": null,
+        "delta_t_status": "unavailable",
+        "persistence_status": "not_satisfied",
+        "candidate_watch_turns": {
+          "start": 25,
+          "end": 275,
+          "turns": 250,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "post_exit_observed_turns": null,
+        "temporal_conformance": {
+          "identity_aligned": true,
+          "coordinate_domains_match": true,
+          "formal_anchor_consistent": true,
+          "staged_order_valid": true,
+          "delta_t_valid": true,
+          "preservation_imprint_valid": true
+        }
+      },
+      "acceptance": {
+        "pass": true,
+        "expected_unavailable": false
+      }
+    }
+  ],
+  "summary": [
+    {
+      "T": 1,
+      "events": 2,
+      "meas": 1,
+      "inc": 0,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "not_computable",
+      "methods": null,
+      "method_pass": null,
+      "horizon_v": null,
+      "unsupported": null,
+      "regime": "unavailable",
+      "warn": false,
+      "cand": false,
+      "taw": null,
+      "tcand": null,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "1cfd3aaa73e80979c2f1d2118d3a825d0de08a8ebf0a296e86ff143b9f542ded"
+    },
+    {
+      "T": 2,
+      "events": 4,
+      "meas": 2,
+      "inc": 0,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Collapse",
+      "warn": true,
+      "cand": true,
+      "taw": 2,
+      "tcand": 2,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "1aecd54352d97b7744686cfc558881dc2477af82002d374620833f5d442f423e"
+    },
+    {
+      "T": 25,
+      "events": 50,
+      "meas": 24,
+      "inc": 1,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Collapse",
+      "warn": true,
+      "cand": true,
+      "taw": 2,
+      "tcand": 25,
+      "tstar": 25,
+      "tstar_conf": true,
+      "accept": true,
+      "hash": "83524aeaf56f7cd0bd425edeb8fd2675bcf4fa12f0932416bb9f2431c4ca6f26"
+    },
+    {
+      "T": 50,
+      "events": 100,
+      "meas": 49,
+      "inc": 1,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Transitional",
+      "warn": true,
+      "cand": true,
+      "taw": 2,
+      "tcand": 25,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "c72fe0b45504869c54c431a30d19f25504712d95a64673b933acad5061e053bb"
+    },
+    {
+      "T": 100,
+      "events": 200,
+      "meas": 99,
+      "inc": 1,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Transitional",
+      "warn": true,
+      "cand": false,
+      "taw": 2,
+      "tcand": null,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "262c1ff384b9eb0802e691a0731840c7345c9b1327870010a8256a6f853771d2"
+    },
+    {
+      "T": 150,
+      "events": 300,
+      "meas": 148,
+      "inc": 2,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Transitional",
+      "warn": true,
+      "cand": false,
+      "taw": 2,
+      "tcand": null,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "ffc3a8ccc3d39ff8f7275da85f715e8749ea46f3f3b3372906b6d7cf18d4a743"
+    },
+    {
+      "T": 200,
+      "events": 400,
+      "meas": 198,
+      "inc": 2,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Transitional",
+      "warn": true,
+      "cand": true,
+      "taw": 2,
+      "tcand": 168,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "a1f22ff9f126a36eecb9228913d0ac94b827e77cbdeca0cd2e16caa8bec34398"
+    },
+    {
+      "T": 275,
+      "events": 550,
+      "meas": 271,
+      "inc": 4,
+      "topology": true,
+      "no_future": true,
+      "coord": true,
+      "compute": "computed",
+      "methods": 48,
+      "method_pass": true,
+      "horizon_v": 0,
+      "unsupported": 0,
+      "regime": "Transitional",
+      "warn": true,
+      "cand": true,
+      "taw": 2,
+      "tcand": 25,
+      "tstar": null,
+      "tstar_conf": false,
+      "accept": true,
+      "hash": "f906ca496e167b8f67487804023a3ed536c3780d9376faca4044836ca34184e0"
+    }
+  ],
+  "pass": true
+}

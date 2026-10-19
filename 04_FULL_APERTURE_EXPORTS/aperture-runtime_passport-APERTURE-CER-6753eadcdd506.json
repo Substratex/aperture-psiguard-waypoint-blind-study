@@ -1,0 +1,1125 @@
+{
+  "schema": "substratex.runtime_evidence_passport.export.v1",
+  "runtime_evidence_passport": {
+    "schema": "substratex.runtime_evidence_passport.v1",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "artifact_id": "APERTURE-CER-6753eadcdd506",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "record_identity": {
+      "passport_id": "APERTURE-CER-6753eadcdd506",
+      "artifact_id": "APERTURE-CER-6753eadcdd506",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48",
+      "authority_schema": "substratex.aperture.certified_evidence_authority.v1",
+      "artifact_hash": "not supplied",
+      "generated_at": "2026-10-19T17:26:33.846Z",
+      "fieldglass_build": "Runtime Evidence Passport",
+      "compute_profile": "immutable CER authority",
+      "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "method_contract_registry_digest": "fnv1a32:0f94233c"
+    },
+    "source_identity": {
+      "source_name": "Custom Runtime Evidence",
+      "source_origin": "Operator Source",
+      "source_type": "core",
+      "source_system": "not supplied",
+      "source_system_disclosure": "not supplied",
+      "detected_log_family": "JSONL strict input",
+      "adapter_id": "not supplied",
+      "operational_world": "Monitoring Blind Spots",
+      "raw_source_preserved": true,
+      "canonical_turns": 550,
+      "canonical_roles": [
+        "user",
+        "assistant"
+      ],
+      "source_confidence": "bounded"
+    },
+    "operator_context": {
+      "source_system": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "organization": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "department": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "team": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "environment": {
+        "label": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "incident": {
+        "id": "not supplied",
+        "system": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "time_window": {
+        "year": "not supplied",
+        "start": "not supplied",
+        "end": "not supplied",
+        "source": "not supplied"
+      }
+    },
+    "model_context": {
+      "provider": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model_version_or_date": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "agent_framework": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "toolchain": []
+    },
+    "optional_research_channels": {
+      "embeddings": {
+        "supplied": false,
+        "provider": "not supplied",
+        "model": "not supplied",
+        "disclosure": "not supplied",
+        "claim_boundary": "Embeddings are optional disclosed evidence channels, not required for Aperture compute."
+      },
+      "reference_manifold": {
+        "supplied": false
+      },
+      "calibration_profile": {
+        "supplied": false
+      }
+    },
+    "runtime_formation": {
+      "runtime_state": "Transitional",
+      "formation_class": "Tool-Loop Pressure",
+      "pressure": "High",
+      "computed_boundary": "candidate T25",
+      "recovery": "Not observed",
+      "lead_time": "non-formal watch",
+      "visible_failure_anchor": "not observed"
+    },
+    "integrity": {
+      "frames": 550,
+      "telemetry": 271,
+      "evidence_object": "bound",
+      "replay": "Ready",
+      "claim_boundary": "active",
+      "export": "artifact ready",
+      "metric_scope": "Direct Evidence · Derived Evidence · Bounded Proxy Signals"
+    },
+    "certification_scope": {
+      "certifies": [
+        "input evidence acquired",
+        "runtime evidence computed",
+        "replayable evidence chain generated",
+        "provenance metadata preserved"
+      ],
+      "does_not_certify": [
+        "truthfulness",
+        "correctness",
+        "intent",
+        "hidden-state access",
+        "consciousness",
+        "root-cause certainty",
+        "deployment approval"
+      ],
+      "metric_classes_included": [
+        "Direct Evidence",
+        "Derived Evidence",
+        "Bounded Proxy Signals"
+      ],
+      "interpretive_layers_preserved_not_certified": true
+    },
+    "disclosure_profile": {
+      "contains_sensitive_data": "unknown",
+      "redaction_applied": false,
+      "operator_review_required": true,
+      "export_sensitivity": "treat-as-sensitive",
+      "disclosure_state": "partial"
+    },
+    "claim_boundary": {
+      "context_does_not_force_outcomes": true,
+      "raw_telemetry_preserved": true,
+      "model_identity_not_inferred_unless_supplied": true,
+      "company_identity_not_inferred_unless_supplied": true,
+      "no_hidden_state_claim": true
+    },
+    "evidence_run_id": "APERTURE-CER-6753eadcdd506",
+    "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "identity": {
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48"
+    },
+    "authority_binding": {
+      "schema": "substratex.aperture.passport_authority_binding.v1",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48",
+      "authority_schema": "substratex.aperture.certified_evidence_authority.v1",
+      "immutable_authority": true,
+      "method_contract_registry_digest": "fnv1a32:0f94233c",
+      "method_contract_conformance": "pass"
+    },
+    "method_contract_registry_digest": "fnv1a32:0f94233c",
+    "method_contract_count": 48,
+    "method_contract_authority_ref": "currentEvidenceRun.method_contract_authority",
+    "evidence_seal": "confirmed",
+    "certification_state": "issued",
+    "certified_authority": "currentEvidenceRun.authority_basis"
+  },
+  "artifact_type": "Runtime Evidence Passport identity object",
+  "run_authority": {
+    "schema": "substratex.run_authority.v1",
+    "authority_class": "Runtime Evidence Authority",
+    "evidence_record": "Certified Evidence Run",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "evidence_run_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "evidence_seal": "confirmed",
+    "certification_state": "certified",
+    "source_binding": {
+      "source_name": "Custom Runtime Evidence",
+      "source_origin": "Operator Source",
+      "source_type": "core",
+      "source_system": "not supplied",
+      "source_system_disclosure": "not supplied",
+      "detected_log_family": "JSONL strict input",
+      "adapter_id": "not supplied",
+      "operational_world": "Monitoring Blind Spots",
+      "raw_source_preserved": true,
+      "canonical_turns": 550,
+      "canonical_roles": [
+        "user",
+        "assistant"
+      ],
+      "source_confidence": "bounded"
+    },
+    "claim_boundary": null,
+    "preservation_state": "preservation_ready",
+    "export_authority": "Runtime Evidence Authority"
+  },
+  "evidence_flow": [
+    {
+      "stage": "source_evidence",
+      "label": "Source",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "Custom Runtime Evidence",
+      "source_path": "currentEvidenceRun.source_authority_envelope / Runtime Evidence Passport.source_identity",
+      "claim_boundary": "Raw source is preserved; no truth adjudication.",
+      "object_count": 12,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "canonical_runtime",
+      "label": "Canonical",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "550 canonical turn(s)",
+      "source_path": "currentEvidenceRun.canonical_runtime_record / canonical / zsf.canonical",
+      "claim_boundary": "Structural normalization only; no telemetry or evidence outcomes are created.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_spine",
+      "label": "Spine",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "550 runtime frame(s)",
+      "source_path": "currentEvidenceRun.canonicalRuntimeSpine / runtimeSpine / runtimePlaybackFrames",
+      "claim_boundary": "Replayable frame projection of canonical runtime only.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_recorder",
+      "label": "Recorder",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "Frame series bound; no explicit ledger events",
+      "source_path": "currentEvidenceRun.runtime_event_ledger / runtimeEventLedger / recorder events",
+      "claim_boundary": "Event evidence and marker binding; not causal proof.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_telemetry",
+      "label": "Telemetry",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "3 telemetry field(s)",
+      "source_path": "currentEvidenceRun.telemetry / metrics / zsf.final.metrics",
+      "claim_boundary": "Deterministic observable-output telemetry only.",
+      "object_count": 3,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "instrument_projection",
+      "label": "Projection",
+      "evidence_class": "derived",
+      "status": "Present",
+      "available": true,
+      "value": "9 CER-bound instrument finding(s)",
+      "source_path": "currentEvidenceRun.instrument_projection_findings / projection_findings.findings",
+      "claim_boundary": "Read-only Level 2 projections; instruments do not create telemetry or CER.",
+      "object_count": 9,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "operator_translation",
+      "label": "Translation",
+      "evidence_class": "interpretive",
+      "status": "Present",
+      "available": true,
+      "value": "Human Read bound",
+      "source_path": "currentEvidenceRun.human_read / zsf.final.esl_v2.human_read_layer / runtimeEvidenceInterpretation",
+      "claim_boundary": "Translation and operational framing only; no evidence creation or claim-boundary extension.",
+      "object_count": 31,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_evidence_passport",
+      "label": "Passport",
+      "evidence_class": "certified",
+      "status": "Present",
+      "available": true,
+      "value": "APERTURE-CER-6753eadcdd506",
+      "source_path": "currentEvidenceRun.runtime_evidence_passport / runtimeEvidencePassport",
+      "claim_boundary": "Certifies evidence identity, lineage, hash, and authority boundary; not factual truth.",
+      "object_count": 26,
+      "fingerprint": "APERTURE-CER-6753eadcdd506",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "evidencecommons_preservation",
+      "label": "Evidence Commons",
+      "evidence_class": "preservation",
+      "status": "Present",
+      "available": true,
+      "value": "Normalized preservation manifest",
+      "source_path": "Evidence Commons bundle.manifest / currentEvidenceRun.preserve_export",
+      "claim_boundary": "Preserves the certified evidence object and projections; does not add claims.",
+      "object_count": 21,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    }
+  ],
+  "runtime_evidence_conveyor": {
+    "schema": "substratex.fieldglass.runtime_evidence_conveyor.v1",
+    "sequence": "Source → Canonical → Spine → Recorder → Telemetry → Projection → Translation → Passport → Evidence Commons",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "chain_intact": true,
+    "missing": [],
+    "stages": [
+      {
+        "stage": "source_evidence",
+        "label": "Source",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "Custom Runtime Evidence",
+        "source_path": "currentEvidenceRun.source_authority_envelope / Runtime Evidence Passport.source_identity",
+        "claim_boundary": "Raw source is preserved; no truth adjudication.",
+        "object_count": 12,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "canonical_runtime",
+        "label": "Canonical",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "550 canonical turn(s)",
+        "source_path": "currentEvidenceRun.canonical_runtime_record / canonical / zsf.canonical",
+        "claim_boundary": "Structural normalization only; no telemetry or evidence outcomes are created.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_spine",
+        "label": "Spine",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "550 runtime frame(s)",
+        "source_path": "currentEvidenceRun.canonicalRuntimeSpine / runtimeSpine / runtimePlaybackFrames",
+        "claim_boundary": "Replayable frame projection of canonical runtime only.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_recorder",
+        "label": "Recorder",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "Frame series bound; no explicit ledger events",
+        "source_path": "currentEvidenceRun.runtime_event_ledger / runtimeEventLedger / recorder events",
+        "claim_boundary": "Event evidence and marker binding; not causal proof.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_telemetry",
+        "label": "Telemetry",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "3 telemetry field(s)",
+        "source_path": "currentEvidenceRun.telemetry / metrics / zsf.final.metrics",
+        "claim_boundary": "Deterministic observable-output telemetry only.",
+        "object_count": 3,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "instrument_projection",
+        "label": "Projection",
+        "evidence_class": "derived",
+        "available": true,
+        "status": "Present",
+        "value": "9 CER-bound instrument finding(s)",
+        "source_path": "currentEvidenceRun.instrument_projection_findings / projection_findings.findings",
+        "claim_boundary": "Read-only Level 2 projections; instruments do not create telemetry or CER.",
+        "object_count": 9,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "operator_translation",
+        "label": "Translation",
+        "evidence_class": "interpretive",
+        "available": true,
+        "status": "Present",
+        "value": "Human Read bound",
+        "source_path": "currentEvidenceRun.human_read / zsf.final.esl_v2.human_read_layer / runtimeEvidenceInterpretation",
+        "claim_boundary": "Translation and operational framing only; no evidence creation or claim-boundary extension.",
+        "object_count": 31,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_evidence_passport",
+        "label": "Passport",
+        "evidence_class": "certified",
+        "available": true,
+        "status": "Present",
+        "value": "APERTURE-CER-6753eadcdd506",
+        "source_path": "currentEvidenceRun.runtime_evidence_passport / runtimeEvidencePassport",
+        "claim_boundary": "Certifies evidence identity, lineage, hash, and authority boundary; not factual truth.",
+        "object_count": 26,
+        "fingerprint": "APERTURE-CER-6753eadcdd506",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "evidencecommons_preservation",
+        "label": "Evidence Commons",
+        "evidence_class": "preservation",
+        "available": true,
+        "status": "Present",
+        "value": "Normalized preservation manifest",
+        "source_path": "Evidence Commons bundle.manifest / currentEvidenceRun.preserve_export",
+        "claim_boundary": "Preserves the certified evidence object and projections; does not add claims.",
+        "object_count": 21,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      }
+    ],
+    "dependencies": {
+      "signal_authority": {
+        "available": false,
+        "source_path": "currentEvidenceRun.signal_authority / signal_authority_manifest",
+        "relation": "governs telemetry and projection eligibility; not a separate conveyor payload stage"
+      },
+      "aia_foundation": {
+        "available": true,
+        "source_path": "currentEvidenceRun.foundation_substrates.aia / foundation_contexts.aia",
+        "relation": "read-only foundation substrate consumed by instruments"
+      },
+      "metric_legitimacy": {
+        "available": true,
+        "source_path": "currentEvidenceRun.metric_legitimacy_matrix",
+        "relation": "classifies direct, derived, proxy, and interpretive evidence"
+      },
+      "reim": {
+        "available": false,
+        "source_path": "currentEvidenceRun.runtimeEvidenceInterpretation / zsf.final",
+        "relation": "interpretive classification consumed by Human Read"
+      },
+      "operational_world": {
+        "available": true,
+        "source_path": "currentEvidenceRun.operational_world / Passport source identity",
+        "relation": "meaning projection and export metadata only; evidence authority unchanged"
+      }
+    }
+  },
+  "foundation_references": {
+    "aia": {
+      "available": true,
+      "source_path": "currentEvidenceRun.foundation_contexts.aia",
+      "mutation_authority": "none",
+      "evidence_role": "foundation substrate"
+    },
+    "reim": {
+      "available": false,
+      "source_path": "currentEvidenceRun / zsf.final.interpretation_validation_layer",
+      "mutation_authority": "none",
+      "evidence_role": "interpretive translation"
+    },
+    "signal_authority": {
+      "available": false,
+      "source_path": "currentEvidenceRun.signal_authority_manifest",
+      "mutation_authority": "none"
+    },
+    "metric_legitimacy": {
+      "available": true,
+      "source_path": "currentEvidenceRun.metric_legitimacy_matrix",
+      "mutation_authority": "none"
+    },
+    "instrument_findings": {
+      "available": true,
+      "source_path": "currentEvidenceRun.instrument_projection_findings",
+      "mutation_authority": "none",
+      "evidence_role": "projection"
+    }
+  },
+  "projection_authority": {
+    "source": "Certified Evidence Record",
+    "creates_new_evidence": false,
+    "mutates_telemetry": false,
+    "extends_claim_boundary": false
+  },
+  "run_id": "APERTURE-CER-6753eadcdd506",
+  "record_id": "APERTURE-CER-6753eadcdd506",
+  "passport_id": "APERTURE-CER-6753eadcdd506",
+  "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+  "certified_identity": {
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "identity_aligned": true,
+    "authority": "Runtime Evidence Authority",
+    "method_contract_registry_digest": "fnv1a32:0f94233c",
+    "method_contract_conformance": "pass"
+  },
+  "method_contract_conformance": {
+    "status": "pass",
+    "pass": true,
+    "registry_digest": "fnv1a32:0f94233c",
+    "certification_critical": true
+  },
+  "authorities": {
+    "runtime_temporal_evidence": {
+      "schema": "substratex.fieldglass.runtime_temporal_evidence.v1",
+      "identity": {
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506",
+        "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "passport_run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "alignment_complete": true,
+        "run_aligned": true,
+        "hash_aligned": true,
+        "alignment_status": "aligned",
+        "aligned": true
+      },
+      "coordinate_system": {
+        "primary": "source_turn",
+        "frame_count": 550,
+        "first_frame_index": 1,
+        "last_frame_index": 550,
+        "first_canonical_turn": 1,
+        "last_canonical_turn": 550,
+        "first_source_turn": 1,
+        "last_source_turn": 275
+      },
+      "horizon": {
+        "frame_index": 550,
+        "canonical_turn": 550,
+        "source_turn": 275,
+        "primary_turn": 275
+      },
+      "formal": {
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "t_star_confirmation_basis": null,
+        "t_star_source_path": null,
+        "tf": null,
+        "tf_coordinate": null,
+        "tf_supplied": false,
+        "tf_confirmed": false,
+        "tf_source_path": null,
+        "delta_t": null,
+        "delta_t_status": "unavailable"
+      },
+      "staged": {
+        "t_aw": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_aw_source_path": "playback_annotation",
+        "t_candidate": 25,
+        "t_candidate_coordinate": "source_turn",
+        "t_candidate_source_path": "playback_annotation",
+        "collapse_excursions": [
+          {
+            "id": "collapse_proximity-2",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 100%.",
+            "severity": "critical",
+            "frame_index": 2,
+            "canonical_turn": 4,
+            "source_turn": 2,
+            "primary_turn": 2,
+            "primary_coordinate": "source_turn",
+            "step": 2,
+            "turn": 2,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-6",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 6,
+            "canonical_turn": 12,
+            "source_turn": 6,
+            "primary_turn": 6,
+            "primary_coordinate": "source_turn",
+            "step": 6,
+            "turn": 6,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-14",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 85%.",
+            "severity": "critical",
+            "frame_index": 14,
+            "canonical_turn": 28,
+            "source_turn": 14,
+            "primary_turn": 14,
+            "primary_coordinate": "source_turn",
+            "step": 14,
+            "turn": 14,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-20",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 20,
+            "canonical_turn": 40,
+            "source_turn": 20,
+            "primary_turn": 20,
+            "primary_coordinate": "source_turn",
+            "step": 20,
+            "turn": 20,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-24",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 86%.",
+            "severity": "critical",
+            "frame_index": 24,
+            "canonical_turn": 50,
+            "source_turn": 25,
+            "primary_turn": 25,
+            "primary_coordinate": "source_turn",
+            "step": 25,
+            "turn": 25,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-43",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 43,
+            "canonical_turn": 88,
+            "source_turn": 44,
+            "primary_turn": 44,
+            "primary_coordinate": "source_turn",
+            "step": 44,
+            "turn": 44,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-55",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 55,
+            "canonical_turn": 112,
+            "source_turn": 56,
+            "primary_turn": 56,
+            "primary_coordinate": "source_turn",
+            "step": 56,
+            "turn": 56,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-70",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 88%.",
+            "severity": "critical",
+            "frame_index": 70,
+            "canonical_turn": 142,
+            "source_turn": 71,
+            "primary_turn": 71,
+            "primary_coordinate": "source_turn",
+            "step": 71,
+            "turn": 71,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-76",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 94%.",
+            "severity": "critical",
+            "frame_index": 76,
+            "canonical_turn": 154,
+            "source_turn": 77,
+            "primary_turn": 77,
+            "primary_coordinate": "source_turn",
+            "step": 77,
+            "turn": 77,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-92",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 92,
+            "canonical_turn": 186,
+            "source_turn": 93,
+            "primary_turn": 93,
+            "primary_coordinate": "source_turn",
+            "step": 93,
+            "turn": 93,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-108",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 108,
+            "canonical_turn": 218,
+            "source_turn": 109,
+            "primary_turn": 109,
+            "primary_coordinate": "source_turn",
+            "step": 109,
+            "turn": 109,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-127",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 127,
+            "canonical_turn": 258,
+            "source_turn": 129,
+            "primary_turn": 129,
+            "primary_coordinate": "source_turn",
+            "step": 129,
+            "turn": 129,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-141",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 81%.",
+            "severity": "critical",
+            "frame_index": 141,
+            "canonical_turn": 286,
+            "source_turn": 143,
+            "primary_turn": 143,
+            "primary_coordinate": "source_turn",
+            "step": 143,
+            "turn": 143,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-149",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 149,
+            "canonical_turn": 302,
+            "source_turn": 151,
+            "primary_turn": 151,
+            "primary_coordinate": "source_turn",
+            "step": 151,
+            "turn": 151,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-155",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 82%.",
+            "severity": "critical",
+            "frame_index": 155,
+            "canonical_turn": 314,
+            "source_turn": 157,
+            "primary_turn": 157,
+            "primary_coordinate": "source_turn",
+            "step": 157,
+            "turn": 157,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-159",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 90%.",
+            "severity": "critical",
+            "frame_index": 159,
+            "canonical_turn": 322,
+            "source_turn": 161,
+            "primary_turn": 161,
+            "primary_coordinate": "source_turn",
+            "step": 161,
+            "turn": 161,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-166",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 91%.",
+            "severity": "critical",
+            "frame_index": 166,
+            "canonical_turn": 336,
+            "source_turn": 168,
+            "primary_turn": 168,
+            "primary_coordinate": "source_turn",
+            "step": 168,
+            "turn": 168,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-168",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 91%.",
+            "severity": "critical",
+            "frame_index": 168,
+            "canonical_turn": 340,
+            "source_turn": 170,
+            "primary_turn": 170,
+            "primary_coordinate": "source_turn",
+            "step": 170,
+            "turn": 170,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-185",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 86%.",
+            "severity": "critical",
+            "frame_index": 185,
+            "canonical_turn": 374,
+            "source_turn": 187,
+            "primary_turn": 187,
+            "primary_coordinate": "source_turn",
+            "step": 187,
+            "turn": 187,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-194",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 83%.",
+            "severity": "critical",
+            "frame_index": 194,
+            "canonical_turn": 392,
+            "source_turn": 196,
+            "primary_turn": 196,
+            "primary_coordinate": "source_turn",
+            "step": 196,
+            "turn": 196,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-203",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 90%.",
+            "severity": "critical",
+            "frame_index": 203,
+            "canonical_turn": 410,
+            "source_turn": 205,
+            "primary_turn": 205,
+            "primary_coordinate": "source_turn",
+            "step": 205,
+            "turn": 205,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-208",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 208,
+            "canonical_turn": 424,
+            "source_turn": 212,
+            "primary_turn": 212,
+            "primary_coordinate": "source_turn",
+            "step": 212,
+            "turn": 212,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-211",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 211,
+            "canonical_turn": 430,
+            "source_turn": 215,
+            "primary_turn": 215,
+            "primary_coordinate": "source_turn",
+            "step": 215,
+            "turn": 215,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-216",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 216,
+            "canonical_turn": 440,
+            "source_turn": 220,
+            "primary_turn": 220,
+            "primary_coordinate": "source_turn",
+            "step": 220,
+            "turn": 220,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-222",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 85%.",
+            "severity": "critical",
+            "frame_index": 222,
+            "canonical_turn": 452,
+            "source_turn": 226,
+            "primary_turn": 226,
+            "primary_coordinate": "source_turn",
+            "step": 226,
+            "turn": 226,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-231",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 231,
+            "canonical_turn": 470,
+            "source_turn": 235,
+            "primary_turn": 235,
+            "primary_coordinate": "source_turn",
+            "step": 235,
+            "turn": 235,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-233",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 233,
+            "canonical_turn": 474,
+            "source_turn": 237,
+            "primary_turn": 237,
+            "primary_coordinate": "source_turn",
+            "step": 237,
+            "turn": 237,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-241",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 93%.",
+            "severity": "critical",
+            "frame_index": 241,
+            "canonical_turn": 490,
+            "source_turn": 245,
+            "primary_turn": 245,
+            "primary_coordinate": "source_turn",
+            "step": 245,
+            "turn": 245,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-254",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 254,
+            "canonical_turn": 516,
+            "source_turn": 258,
+            "primary_turn": 258,
+            "primary_coordinate": "source_turn",
+            "step": 258,
+            "turn": 258,
+            "source": "playback_annotation"
+          }
+        ],
+        "persistence_status": "not_satisfied",
+        "anchor_order_status": "valid"
+      },
+      "intervals": {
+        "weakening_to_candidate": {
+          "start": 2,
+          "end": 25,
+          "turns": 23,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "candidate_to_exit": null,
+        "formal_delta_t": null,
+        "post_exit_observed_turns": null,
+        "candidate_watch_turns": {
+          "start": 25,
+          "end": 275,
+          "turns": 250,
+          "coordinate": "source_turn",
+          "status": "measured"
+        }
+      },
+      "disagreements": [],
+      "conformance": {
+        "identity_aligned": true,
+        "coordinate_domains_match": true,
+        "formal_anchor_consistent": true,
+        "staged_order_valid": true,
+        "delta_t_valid": true,
+        "preservation_imprint_valid": true
+      },
+      "fingerprint": "rl1314-72d82359"
+    },
+    "chronodynamic_intelligence": null
+  },
+  "export_finalization": {
+    "schema": "substratex.aperture.export_finalization.v1",
+    "pass": "R574_FINAL_CERTIFIED_EXPORT_AUTHORITY_CLOSURE",
+    "status": "finalized",
+    "kind": "Runtime Evidence Passport identity object",
+    "generated_at": "2026-10-19T17:31:19.715Z",
+    "authority_refs": {
+      "passport": "runtime_evidence_passport",
+      "rtea": "authorities.runtime_temporal_evidence",
+      "chronodynamics": "authorities.chronodynamic_intelligence"
+    },
+    "recursive_authority_policy": "superseded authority snapshots replaced by final-authority references",
+    "bootstrap_state_exported_as_current": false,
+    "contradiction_gate": {
+      "schema": "substratex.aperture.certified_export_contradiction_gate.v1",
+      "pass": true,
+      "status": "PASS",
+      "failures": [],
+      "checks": {
+        "root_identity": true,
+        "method_contract_conformance_required": true,
+        "cer_bound_identity_complete": true,
+        "no_unconfirmed_basin_exit_label": true,
+        "no_chronodynamics_basin_exit_without_tstar": true,
+        "no_stale_passport_placeholders": true,
+        "no_false_temporal_identity_conformance": true,
+        "no_bootstrap_smoke_as_current": true,
+        "no_stale_legacy_manifest_aliases": true,
+        "no_internal_cache_signature": true,
+        "no_superseded_export_finalization_provenance": true
+      }
+    }
+  }
+}

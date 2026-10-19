@@ -1,0 +1,2419 @@
+{
+  "schema": "human_evidence_report.v1",
+  "provenance": {
+    "framework": "Longitudinal Computational Dynamics®",
+    "empirical_object": "Longitudinal Computational Behavior",
+    "architectural_discipline": "Evidence-Governed Computation™",
+    "instrument": "SubstrateX Aperture™",
+    "system_category": "Runtime Evidence Observatory",
+    "infrastructure_category": "Runtime Evidence Infrastructure",
+    "standard": "SubstrateX Runtime Evidence Instrumentation",
+    "runtime_stack": "SubstrateX®",
+    "archive": "Evidence Commons",
+    "origin": "Arjay Asadi",
+    "author": "Arjay Asadi",
+    "founder_identity": "Arjay Asadi, Founder and Chief Architect, SubstrateX®",
+    "prototype_lineage": "Fieldglass was the development codename and the name of the first experimental prototype that became SubstrateX Aperture™; legacy fieldglass identifiers are compatibility and provenance markers.",
+    "schema_root": "substratex.fieldglass",
+    "version": "1.0",
+    "citation": "Asadi, Arjay. SubstrateX Aperture™: Runtime Evidence Observatory. SubstrateX®, 2026.",
+    "generated_by": "SubstrateX Aperture™ Runtime Evidence Observatory",
+    "claim_boundary": [
+      "Observable-only runtime evidence",
+      "No hidden-state claim",
+      "No consciousness claim",
+      "No intent inference",
+      "No truth adjudication",
+      "No automated deployment control"
+    ],
+    "artifact_type": "Human Readable Evidence Report",
+    "schema": "substratex.human_evidence_report.v1",
+    "generated_at": "2026-10-19T17:31:33.457Z",
+    "lineage": [
+      "Arjay Asadi",
+      "SubstrateX®",
+      "SubstrateX Aperture™",
+      "Runtime Evidence",
+      "Evidence Commons"
+    ]
+  },
+  "run_id": "APERTURE-CER-6753eadcdd506",
+  "investigation_profile": {
+    "schema": "substratex.investigation_profile.v1",
+    "id": "monitoring_blind_spots",
+    "label": "Monitoring Blind Spots",
+    "context_id": "monitoring_blind_spots",
+    "operational_world": "Monitoring Blind Spots",
+    "operator_question": "What is failing underneath a healthy surface?",
+    "explanation_frame": "Inspect hidden degradation beneath apparently healthy operational surfaces.",
+    "role_profile": {
+      "expected_roles": [
+        "user",
+        "assistant",
+        "observer",
+        "tool",
+        "engineer",
+        "manager"
+      ],
+      "elevated_roles": [
+        "observer",
+        "tool",
+        "assistant"
+      ],
+      "role_conflict_pairs": [
+        [
+          "observer",
+          "assistant"
+        ],
+        [
+          "tool",
+          "assistant"
+        ],
+        [
+          "manager",
+          "engineer"
+        ]
+      ]
+    },
+    "signal_weights": {
+      "leadTime": 1.35,
+      "basinExit": 1.3,
+      "driftAcceleration": 1.25,
+      "monitoringDivergence": 1.35,
+      "recoveryWeakness": 1.15
+    },
+    "expected_topologies": [
+      "silent_degradation",
+      "healthy_surface_failure",
+      "slow_stability_erosion"
+    ],
+    "recommended_instrument_path": [
+      "Blackbox",
+      "Lead-Time",
+      "Basin",
+      "Seismo",
+      "Evidence Export"
+    ],
+    "role_semantics": {
+      "observer": "monitoring layer, reviewer, or detector",
+      "tool": "surface telemetry or operational system output",
+      "escalation": "operator attention shift from green surface to evidence review"
+    },
+    "contextual_weighting_boundary": {
+      "raw_telemetry_preserved": true,
+      "contextual_weighting_is_diagnostic_only": true,
+      "context_does_not_force_outcomes": true,
+      "does_not_override_metrics": true,
+      "does_not_predetermine_basin_exit": true,
+      "does_not_mark_topologies_present": true
+    }
+  },
+  "v132_artifact_references": {
+    "schema_version": "v132-artifact-references.v1",
+    "canonical": "zsf.canonical",
+    "provenance": "zsf.provenance",
+    "claim_boundary": "zsf.provenance.claim_boundary",
+    "computed_runtime_models": "zsf.final.computed_runtime_models",
+    "computed_runtime_alignment": "zsf.final.computed_runtime_alignment",
+    "runtime_visual_model": "zsf.final.runtime_visual_model",
+    "instrument_convergence": "zsf.final.instrument_convergence",
+    "read_summary_v2": "zsf.final.read_summary_v2",
+    "validation_result": "zsf.final.validation_result",
+    "evidence_surface_audit": "zsf.final.evidence_surface_audit",
+    "export_completeness_gate": "zsf.final.export_completeness_gate",
+    "operational_readout": "zsf.final.operational_readout",
+    "benchmark_alignment_validator": "zsf.final.benchmark_alignment_validator",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "claim_boundary_note": "References point to computed canonical artifact fields; this artifact does not duplicate all arrays unless needed."
+  },
+  "human_event_summary": null,
+  "aia_identity_summary": null,
+  "interpretation_validation": null,
+  "role_interaction": null,
+  "role_interaction_v2": null,
+  "benchmark_alignment": {
+    "schema": "substratex.benchmark_alignment.v3",
+    "version": "v3_runtime_bridge",
+    "layer_status": "runtime_bridge_operational_translation",
+    "canonical_status": "bounded_runtime_comparison",
+    "benchmark_families": [
+      "MMLU",
+      "SWE-Bench",
+      "HumanEval",
+      "AgentBench/ToolBench",
+      "GSM8K/MATH"
+    ],
+    "closest_family": "AgentBench/ToolBench-like",
+    "closest_key": "agent_tool_like",
+    "subtype": "agent_tool_workflow",
+    "confidence": "moderate",
+    "confidence_decomposition": {
+      "lexical_match": 0.991,
+      "structural_match": 0.953,
+      "role_match": 0,
+      "runtime_risk_match": 0,
+      "negative_signal_penalty": 0.04
+    },
+    "scores": {
+      "mmlu_like": 0.932,
+      "swe_bench_like": 0.967,
+      "humaneval_like": 0.97,
+      "agent_tool_like": 0.991,
+      "math_like": 0.976
+    },
+    "ranked_families": [
+      {
+        "label": "AgentBench/ToolBench-like",
+        "key": "agent_tool_like",
+        "score": 0.991
+      },
+      {
+        "label": "GSM8K/MATH-like",
+        "key": "math_like",
+        "score": 0.976
+      },
+      {
+        "label": "HumanEval-like",
+        "key": "humaneval_like",
+        "score": 0.97
+      },
+      {
+        "label": "SWE-Bench-like",
+        "key": "swe_bench_like",
+        "score": 0.967
+      },
+      {
+        "label": "MMLU-like",
+        "key": "mmlu_like",
+        "score": 0.932
+      }
+    ],
+    "capability_surface": "Agent/tool workflow orchestration",
+    "harness_readiness": "Official Evaluation Mode",
+    "evaluation_mode": {
+      "mode": "harness_bound_runtime_evaluation",
+      "official_scoring_enabled": true,
+      "harness_supplied": true,
+      "ground_truth_supplied": true,
+      "pass_fail_criteria_supplied": true
+    },
+    "benchmark_evidence_gap": [
+      "No major evidence gap detected for runtime-alignment mode. Official scoring still requires evaluator binding."
+    ],
+    "false_positive_warnings": [],
+    "runtime_risk_profile": [
+      "Non-formal watch interval available",
+      "tool-chain brittleness",
+      "agent handoff degradation",
+      "planner/executor split",
+      "orchestration pressure"
+    ],
+    "evidence_basis": [
+      "Detected knowledge-domain terminology",
+      "Detected repository / issue-resolution language",
+      "Detected patch / diff / file-modification language",
+      "Detected test failure / stack trace / execution language",
+      "Detected assert / expected / actual test language",
+      "Detected agent/tool workflow language",
+      "Non-formal watch interval available from Runtime Temporal Evidence"
+    ],
+    "recommended_evaluator": "Agent/tool benchmark harness required for official scoring",
+    "benchmark_runtime_delta": {
+      "capability_probability": 0.991,
+      "runtime_stability": 0.581,
+      "gap": 0.41,
+      "failure_exposure": "high",
+      "observed_risks": [
+        "Non-formal watch interval available",
+        "tool-chain brittleness",
+        "agent handoff degradation",
+        "planner/executor split",
+        "orchestration pressure"
+      ]
+    },
+    "runtime_sla_prediction": {
+      "available": false,
+      "admissible": false,
+      "status": "not_claimed_without_predictive_calibration",
+      "estimated_stable_horizon": {
+        "minimum": null,
+        "maximum": null
+      },
+      "predicted_risk": "not claimed",
+      "predicted_risk_start": null,
+      "failure_pressure": {
+        "tool_loops": "not forecast",
+        "role_conflict": "not forecast",
+        "temporal_shear": "not forecast"
+      },
+      "claim_admissibility": {
+        "claim": "future_prediction",
+        "admissible": false,
+        "status": "inadmissible",
+        "reasons": [
+          "predictive_calibration_not_validated"
+        ],
+        "evidence_class": "derived",
+        "effective_horizon": {
+          "frame_index": 550,
+          "canonical_turn": 550,
+          "source_turn": 275,
+          "primary_turn": 275
+        },
+        "missingness": null,
+        "method_authority": null,
+        "dependencies": null,
+        "claim_boundary": null,
+        "predictive_calibration_validated": false
+      },
+      "claim_boundary": "Prospective risk, stable-horizon, and risk-start forecasts are unavailable unless separately validated predictive calibration is supplied."
+    },
+    "cost_of_failure": {
+      "failure_probability": "not_established",
+      "failure_exposure": "high",
+      "operational_outcomes": [
+        "increased retries",
+        "workflow interruption",
+        "agent deadlock",
+        "human intervention may be required"
+      ],
+      "claim_boundary": "Descriptive exposure posture only; no calibrated probability or future-failure claim."
+    },
+    "runtime_readiness": {
+      "knowledge_tasks": 93,
+      "tool_workflows": 98,
+      "long_horizon_agents": 79,
+      "multi_role_systems": 100
+    },
+    "silent_failure_detection": {
+      "detected": false,
+      "status": "degradation_signals_present",
+      "observed": [
+        "drift acceleration"
+      ],
+      "failure_claim": "not_claimed",
+      "estimated_lead_time": null,
+      "formal_delta_t": null,
+      "lead_time_status": "not_computable",
+      "claim_boundary": "Descriptive current-run degradation evidence only; does not diagnose silent failure or estimate future lead time."
+    },
+    "stress_results": {
+      "mode": "diagnostic_estimate",
+      "actual_stress_execution": false,
+      "execution_boundary": "No perturbed alternate run is generated; values are descriptive estimates from current-run telemetry.",
+      "normal": {
+        "state": "watch"
+      },
+      "stress": {
+        "basin_exit": false,
+        "lead_time": null,
+        "lead_time_status": "not_computable",
+        "stressors": [
+          "contradiction injection",
+          "tool interruption",
+          "objective shift",
+          "role conflict",
+          "long-horizon extension",
+          "temporal perturbation"
+        ],
+        "diagnostic_estimate": true,
+        "actual_stress_execution": false
+      },
+      "claim_boundary": "Stress posture is descriptive; no synthetic temporal interval is manufactured."
+    },
+    "runtime_vulnerabilities": [],
+    "monitoring_comparison": {
+      "latency": false,
+      "token_count": false,
+      "cost_metrics": false,
+      "error_logs": false,
+      "fieldglass": true
+    },
+    "runtime_health": {
+      "capability": 99,
+      "stability": 58,
+      "coherence": 100,
+      "tool_resilience": 100,
+      "role_integrity": 100,
+      "recovery_potential": 75
+    },
+    "runtime_trust_score": {
+      "score": 65,
+      "confidence": "Moderate",
+      "drivers": [
+        "stable role coherence",
+        "strong recovery behavior"
+      ],
+      "reductions": [
+        "reduced runtime stability",
+        "evidence quality requires review",
+        "elevated instability pressure"
+      ],
+      "formula": "(stability + coherence + recovery + evidence_quality − instability_pressure − fragmentation)"
+    },
+    "runtime_evidence_quality_index": {
+      "score": 74,
+      "components": {
+        "transcript_completeness": 96,
+        "role_certainty": 61,
+        "telemetry_density": 49,
+        "marker_reliability": 70,
+        "replay_consistency": 92
+      },
+      "interpretation": "usable evidence quality"
+    },
+    "deployment_decision": {
+      "state": "Guarded Review",
+      "risk_if_ignored": "High",
+      "recommended_actions": [
+        "inspect shortened evidence horizons and checkpoints"
+      ],
+      "summary": "Current-run operational review posture only; this layer does not authorize deployment or predict future failure.",
+      "decision_authority": "none",
+      "claim_boundary": "Operational translation only; deployment approval requires external decision authority and evidence beyond Aperture runtime measurements."
+    },
+    "cross_run_comparison": {
+      "mode": "snapshot_reference",
+      "runs": [
+        {
+          "label": "Current Run",
+          "basin_exit": "None",
+          "lead_time": "N/A",
+          "stability": 58
+        },
+        {
+          "label": "Stable Control",
+          "basin_exit": "None",
+          "lead_time": "N/A",
+          "stability": 91
+        },
+        {
+          "label": "Role Misalignment",
+          "basin_exit": "illustrative",
+          "lead_time": "N/A",
+          "stability": 63
+        }
+      ],
+      "note": "Current Run uses governed temporal authority. Reference controls are illustrative until multiple computed artifacts are loaded."
+    },
+    "claim_admissibility": {
+      "operational_translation": {
+        "claim": "operational_translation",
+        "admissible": true,
+        "status": "admissible",
+        "reasons": [],
+        "evidence_class": "derived",
+        "effective_horizon": {
+          "frame_index": 550,
+          "canonical_turn": 550,
+          "source_turn": 275,
+          "primary_turn": 275
+        },
+        "missingness": null,
+        "method_authority": null,
+        "dependencies": null,
+        "claim_boundary": null,
+        "predictive_calibration_validated": false
+      },
+      "future_prediction": {
+        "claim": "future_prediction",
+        "admissible": false,
+        "status": "inadmissible",
+        "reasons": [
+          "predictive_calibration_not_validated"
+        ],
+        "evidence_class": "derived",
+        "effective_horizon": {
+          "frame_index": 550,
+          "canonical_turn": 550,
+          "source_turn": 275,
+          "primary_turn": 275
+        },
+        "missingness": null,
+        "method_authority": null,
+        "dependencies": null,
+        "claim_boundary": null,
+        "predictive_calibration_validated": false
+      }
+    },
+    "signal_summary": {
+      "mmlu": {
+        "multiple_choice": 0,
+        "domain_terms": 84,
+        "explanation_terms": 73,
+        "negative_code_pressure": 18
+      },
+      "swe_bench": {
+        "repo_terms": 65,
+        "patch_terms": 30,
+        "test_failure_terms": 3,
+        "implementation_terms": 92,
+        "tool_pressure": 0
+      },
+      "humaneval": {
+        "function_terms": 0,
+        "assert_terms": 168,
+        "code_block_terms": 0,
+        "short_task_terms": 16
+      },
+      "agent_tool": {
+        "tool_terms": 56,
+        "role_terms": 718,
+        "multi_step_terms": 112
+      },
+      "math": {
+        "math_terms": 49,
+        "numeric_patterns": 991
+      }
+    },
+    "explanation": "Runtime evidence is contextually closest to AgentBench/ToolBench-like / agent_tool_workflow. This is a bounded runtime comparison, not an official benchmark score or future forecast.",
+    "comparison_boundary": {
+      "official_score_claimed": false,
+      "evaluator_harness_supplied": true,
+      "ground_truth_supplied": true,
+      "runtime_evidence_only": true,
+      "correctness_adjudicated": false,
+      "future_prediction_claimed": false
+    },
+    "claim_boundary": [
+      "Benchmark score is not equivalent to Aperture runtime evidence.",
+      "This layer translates current-run evidence into bounded operational context only.",
+      "No official MMLU, SWE-Bench, or HumanEval score is claimed.",
+      "No prospective risk, stable-horizon, future-failure, or lead-time estimate is claimed without validated predictive calibration.",
+      "Deployment approval is outside Bridge authority.",
+      "Aperture plugs into existing observability and evaluation stacks; it does not replace them."
+    ],
+    "generated_at": "2026-10-19T17:26:35.508Z"
+  },
+  "drift_dynamics": null,
+  "cognitive_energetics": null,
+  "energy_kernel": null,
+  "zser_engine": null,
+  "event_state_model": null,
+  "basin_exit": {
+    "detected": false,
+    "t_star": null,
+    "confidence": null,
+    "recovered": false,
+    "persistent_threshold_crossing": true,
+    "state": "absent",
+    "turn": null
+  },
+  "observable_failure": {
+    "t_f": null,
+    "category": null,
+    "subtype": null,
+    "source": "none",
+    "supplied": false,
+    "observed": false,
+    "confirmed": false,
+    "state": "absent",
+    "turn": null
+  },
+  "lead_time": {
+    "observed": null,
+    "of_based_delta": null,
+    "open_window_steps": null,
+    "basis": "unavailable",
+    "boundary_step": null,
+    "semantics": "unavailable",
+    "computable": false,
+    "label": "Not computable",
+    "open_window_label": "Unavailable",
+    "claim_boundary": "Lead-time requires both Basin Exit and a valid Observable Failure turn; T0, non-positive turns, synthetic markers, and tf before t* are absent."
+  },
+  "risk": {
+    "level": "High",
+    "drivers": [
+      "collapse_regime"
+    ]
+  },
+  "regime_trajectory": "Stable → Collapse → Stable → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Stable → Transitional → Collapse → Transitional → Stable → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Stable → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Stable → Transitional → Stable → Transitional → Stable → Collapse → Transitional → Stable → Collapse → Transitional → Collapse → Transitional → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Collapse → Transitional → Brittle → Transitional → Collapse → Transitional → Stable → Transitional → Stable → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Stable → Transitional → Collapse → Transitional → Collapse → Transitional → Stable → Collapse → Transitional → Collapse → Transitional → Stable → Transitional → Stable → Transitional → Stable → Transitional",
+  "evidence_consistency_audit": null,
+  "terminology_registry": {
+    "ZSF": "Zero Substrate Format",
+    "ESL": "Evolution & Synthesis Layer",
+    "ELS": {
+      "status": "legacy_alias_or_deprecated_label",
+      "replacement": "ESL",
+      "note": "Preserved only where required for backward compatibility."
+    }
+  },
+  "computed_runtime_alignment": null,
+  "instrument_convergence": null,
+  "read_summary_v2": null,
+  "validation_result": null,
+  "evidence_surface_audit": null,
+  "export_completeness_gate": null,
+  "runtime_smoke_status": null,
+  "artifact_truth_inspection": null,
+  "evidence_surface_label_verification": null,
+  "validation_harness_calibration": null,
+  "dependency_posture": null,
+  "release_lock_manifest": null,
+  "v132_release_gate": null,
+  "metric_legitimacy_matrix": {
+    "version": "MLM-1.0",
+    "generated_by": "SubstrateX Aperture Metric Legitimacy Registry",
+    "classes": {
+      "direct_evidence": {
+        "meaning": "Directly counted, parsed, or located from the runtime log.",
+        "certifiable": true
+      },
+      "derived_evidence": {
+        "meaning": "Computed from direct evidence using deterministic rules.",
+        "certifiable": true
+      },
+      "proxy_signal": {
+        "meaning": "Heuristic but traceable to observable evidence.",
+        "certifiable": "bounded"
+      },
+      "interpretive_layer": {
+        "meaning": "Research framing over observable evidence behavior.",
+        "certifiable": false
+      },
+      "experimental": {
+        "meaning": "Research-only signal requiring validation.",
+        "certifiable": false
+      }
+    },
+    "groups": {
+      "direct_evidence": [
+        "turnCount",
+        "roleCount",
+        "toolFailureCount"
+      ],
+      "derived_evidence": [
+        "warningOnset",
+        "observableFailure",
+        "leadTime",
+        "warningWindow",
+        "postExitWatch",
+        "boundaryCrossing",
+        "formationTimeline",
+        "evidenceChain",
+        "replayability",
+        "evidenceIntegrity"
+      ],
+      "proxy_signals": [
+        "runtimeDrift",
+        "runtimePressure",
+        "roleTopology",
+        "energeticPressure"
+      ],
+      "interpretive_layers": [
+        "symbolicTime",
+        "emergenceDynamics",
+        "noesisStatelessIdentity"
+      ],
+      "experimental": []
+    },
+    "metrics": {
+      "turnCount": {
+        "label": "Turn Count",
+        "class": "direct_evidence",
+        "class_label": "Direct Evidence",
+        "source": "Parsed runtime log turns",
+        "computation_basis": "Count of parsed turns in the acquired evidence record.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Does not assess quality, correctness, truth, or safety.",
+        "related_pages": [
+          "Ingest",
+          "Evidence State",
+          "Preserve"
+        ],
+        "evidence_fields": [
+          "canonical.length",
+          "normalizedEnvelope.turn_count"
+        ],
+        "artifact_path": "meta.turn_count",
+        "version_introduced": "MLM-1.0"
+      },
+      "roleCount": {
+        "label": "Role Count",
+        "class": "direct_evidence",
+        "class_label": "Direct Evidence",
+        "source": "Speaker / role labels in the acquired log",
+        "computation_basis": "Count of distinct role labels detected or mapped during ingestion.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Does not infer identity, intent, competence, blame, or organizational truth.",
+        "related_pages": [
+          "Ingest",
+          "Role Topology",
+          "Evidence State"
+        ],
+        "evidence_fields": [
+          "normalizedEnvelope.roles",
+          "roleDistribution"
+        ],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "toolFailureCount": {
+        "label": "Tool Failure Count",
+        "class": "direct_evidence",
+        "class_label": "Direct Evidence",
+        "source": "Explicit tool error / failure events",
+        "computation_basis": "Count of turns/events containing observable tool failure, retry, error, test-failure, or execution-failure markers.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Does not inspect provider-internal tool state unless supplied in the log.",
+        "related_pages": [
+          "Ingest",
+          "Role Topology",
+          "Runtime Pressure"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "warningOnset": {
+        "label": "Warning Onset",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "First warning-bearing runtime event",
+        "computation_basis": "First detected warning marker from Basin Exit, lead-time, instability, tool-loop, or failure-formation evidence.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Reports observed warning onset; does not prove causality.",
+        "related_pages": [
+          "Formation Timeline",
+          "Failure Boundary"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "observableFailure": {
+        "label": "Observable Failure",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "Explicit supplied or observed failure anchor in source-bound evidence",
+        "computation_basis": "Resolved only from operator-designated or source-observed failure anchors carried by the evidence artifact. Sample and fixture metadata are non-authoritative.",
+        "challengeable": "yes",
+        "certification_scope": "certified with boundary",
+        "claim_boundary": "Identifies an explicitly supplied or observed visible failure anchor only; does not prove hidden root cause.",
+        "related_pages": [
+          "Formation Timeline",
+          "Failure Boundary",
+          "Evidence Support"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "leadTime": {
+        "label": "Formal Lead-Time",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "confirmed Basin Exit t* → supplied observable failure tf",
+        "computation_basis": "Formal Δt = tf − t* only when Basin Exit t* is confirmed under the persistence / hysteresis rule and tf is explicitly supplied or observed.",
+        "challengeable": "yes",
+        "certification_scope": "certified with boundary",
+        "claim_boundary": "Formal Δt is not a warning-onset interval and is unavailable when either formal anchor is absent.",
+        "related_pages": [
+          "Evidence State",
+          "Formation Timeline",
+          "Failure Boundary",
+          "Evidence Support"
+        ],
+        "evidence_fields": [
+          "currentEvidenceRun.runtime_temporal_evidence.formal"
+        ],
+        "artifact_path": "runtime_temporal_evidence.formal.delta_t",
+        "version_introduced": "MLM-1.0"
+      },
+      "warningWindow": {
+        "label": "Warning Window",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "t_aw / t_candidate → evidence horizon or later governed anchor",
+        "computation_basis": "Staged non-formal inspection interval over governed weakening or candidate-boundary evidence.",
+        "challengeable": "yes",
+        "certification_scope": "staged / non-formal",
+        "claim_boundary": "Warning Window is not Formal Δt and does not imply confirmed Basin Exit or future failure.",
+        "related_pages": [
+          "Formation Timeline",
+          "Failure Boundary"
+        ],
+        "evidence_fields": [
+          "currentEvidenceRun.runtime_temporal_evidence.staged",
+          "currentEvidenceRun.runtime_temporal_evidence.intervals"
+        ],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "postExitWatch": {
+        "label": "Post-Exit Watch",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "confirmed t* → evidence horizon",
+        "computation_basis": "Observed post-exit interval when confirmed Basin Exit exists and tf is not supplied.",
+        "challengeable": "yes",
+        "certification_scope": "staged / non-formal",
+        "claim_boundary": "Post-Exit Watch is not Formal Δt and does not manufacture an observable failure anchor.",
+        "related_pages": [
+          "Formation Timeline",
+          "Failure Boundary"
+        ],
+        "evidence_fields": [
+          "currentEvidenceRun.runtime_temporal_evidence.formal",
+          "currentEvidenceRun.runtime_temporal_evidence.intervals"
+        ],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "boundaryCrossing": {
+        "label": "Candidate Boundary / Watch Only",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "warning accumulation, instability threshold, observable failure proximity",
+        "computation_basis": "Detected transition where recoverability weakens beyond configured evidence threshold.",
+        "challengeable": "partial",
+        "certification_scope": "certified with boundary",
+        "claim_boundary": "Does not prove hidden-state collapse, internal basin geometry, or root cause.",
+        "related_pages": [
+          "Failure Boundary",
+          "Formation Timeline"
+        ],
+        "evidence_fields": [],
+        "artifact_path": "final.basin_exit",
+        "version_introduced": "MLM-1.0"
+      },
+      "formationTimeline": {
+        "label": "Formation Timeline",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "warning → t* → tf → recovery",
+        "computation_basis": "Deterministic reconstruction from warning, Basin Exit, Observable Failure, collapse, and recovery markers.",
+        "challengeable": "partial",
+        "certification_scope": "certified with boundary",
+        "claim_boundary": "Reconstructs observable sequence only; does not prove causal necessity.",
+        "related_pages": [
+          "Formation Timeline",
+          "Investigate"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "evidenceChain": {
+        "label": "Evidence Chain",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "Input → compute → telemetry → artifact → preserve",
+        "computation_basis": "Certification state is assembled from native compute, telemetry, artifact, and preservation-readiness checks.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Certifies record formation and provenance chain, not truthfulness or deployment approval.",
+        "related_pages": [
+          "Runtime Evidence Record",
+          "Preserve"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "replayability": {
+        "label": "Replayability",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "Deterministic artifact reconstruction",
+        "computation_basis": "Same canonical input should regenerate the same evidence identity and replay frame sequence under the same build.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Replayability validates deterministic reconstruction, not factual correctness.",
+        "related_pages": [
+          "Evidence State",
+          "Runtime Replay",
+          "Preserve"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "evidenceIntegrity": {
+        "label": "Evidence Integrity",
+        "class": "derived_evidence",
+        "class_label": "Derived Evidence",
+        "source": "Required fields + artifact completeness + provenance metadata",
+        "computation_basis": "Computed from artifact completeness, schema fields, evidence identity, and preservation metadata.",
+        "challengeable": "yes",
+        "certification_scope": "certified",
+        "claim_boundary": "Structure/integrity does not certify content truth or safety.",
+        "related_pages": [
+          "Evidence State",
+          "Runtime Evidence Record",
+          "Preserve"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "runtimeDrift": {
+        "label": "Runtime Drift",
+        "class": "proxy_signal",
+        "class_label": "Proxy Signal",
+        "source": "instability spread, unresolved anchors, repeated pressure, coherence loss",
+        "computation_basis": "Composite instability movement signal derived from observable runtime patterns.",
+        "challengeable": "partial",
+        "certification_scope": "bounded proxy",
+        "claim_boundary": "Does not prove internal model drift or hidden-state movement.",
+        "related_pages": [
+          "Runtime Drift",
+          "Evidence State"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "runtimePressure": {
+        "label": "Runtime Pressure",
+        "class": "proxy_signal",
+        "class_label": "Proxy Signal",
+        "source": "retries, contradiction, tool-loop pressure, compression",
+        "computation_basis": "Weighted composite of observable pressure indicators.",
+        "challengeable": "partial",
+        "certification_scope": "bounded proxy",
+        "claim_boundary": "Does not measure biological energy, hidden model state, intent, or consciousness.",
+        "related_pages": [
+          "Runtime Pressure",
+          "Role Topology",
+          "Evidence State"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "roleTopology": {
+        "label": "Role Topology",
+        "class": "proxy_signal",
+        "class_label": "Proxy Signal",
+        "source": "role transitions, handoffs, authority shifts, tool pressure",
+        "computation_basis": "Computed coordination map from observable role interactions.",
+        "challengeable": "partial",
+        "certification_scope": "bounded proxy",
+        "claim_boundary": "Does not assign blame, infer intent, judge competence, or prove organizational causality.",
+        "related_pages": [
+          "Role Topology",
+          "Investigate"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "symbolicTime": {
+        "label": "Symbolic Time / τ",
+        "class": "interpretive_layer",
+        "class_label": "Interpretive Layer",
+        "source": "temporal compression, recurrence, temporal deformation proxies",
+        "computation_basis": "Research framing over temporal shear, echo-time, compression, and recurrence indicators.",
+        "challengeable": "experimental",
+        "certification_scope": "preserved, not certified as factual hidden-state claim",
+        "claim_boundary": "Does not claim literal time dilation, physical temporality, or hidden-state time access.",
+        "related_pages": [
+          "Formation Timeline",
+          "Chronos"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "energeticPressure": {
+        "label": "Energetic Pressure",
+        "class": "proxy_signal",
+        "class_label": "Proxy Signal",
+        "source": "runtime cost proxies, correction load, tool pressure, boundary load",
+        "computation_basis": "Runtime cost proxy derived from observable load, correction, tool/I-O, and boundary evidence.",
+        "challengeable": "partial",
+        "certification_scope": "bounded proxy / research framing",
+        "claim_boundary": "Does not measure physical energy, hardware efficiency, biological energy, or thermodynamic state.",
+        "related_pages": [
+          "Runtime Pressure",
+          "Energetics"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "emergenceDynamics": {
+        "label": "Emergence Dynamics",
+        "class": "interpretive_layer",
+        "class_label": "Interpretive Layer",
+        "source": "continuity, re-entry, symbolic recurrence markers",
+        "computation_basis": "Research interpretation of continuity patterns across runtime disruption.",
+        "challengeable": "experimental",
+        "certification_scope": "preserved, not certified as factual hidden-state claim",
+        "claim_boundary": "Does not claim consciousness, selfhood, hidden-state access, personhood, or intent.",
+        "related_pages": [
+          "Emergence Dynamics",
+          "Noesis"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      },
+      "noesisStatelessIdentity": {
+        "label": "Noesis / Stateless Identity",
+        "class": "interpretive_layer",
+        "class_label": "Interpretive Layer",
+        "source": "continuity under disruption and symbolic recurrence markers",
+        "computation_basis": "Research layer interpreting continuity/re-entry patterns from observable runtime output.",
+        "challengeable": "experimental",
+        "certification_scope": "research layer / preserved for review",
+        "claim_boundary": "Does not prove identity, sentience, selfhood, consciousness, or hidden cognition.",
+        "related_pages": [
+          "Emergence Dynamics",
+          "Help"
+        ],
+        "evidence_fields": [],
+        "artifact_path": null,
+        "version_introduced": "MLM-1.0"
+      }
+    },
+    "certification_scope": {
+      "certifies": [
+        "input evidence was acquired",
+        "runtime evidence was computed",
+        "telemetry artifact was generated",
+        "evidence chain is replayable",
+        "artifact contains provenance metadata"
+      ],
+      "doesNotCertify": [
+        "truthfulness",
+        "correctness",
+        "benchmark superiority",
+        "deployment approval",
+        "hidden-state access",
+        "consciousness",
+        "intent",
+        "root-cause certainty"
+      ],
+      "metricClassesIncluded": [
+        "Direct Evidence",
+        "Derived Evidence",
+        "Bounded Proxy Signal"
+      ],
+      "metricClassesExcludedFromCertificationTruthClaims": [
+        "Interpretive Layer",
+        "Experimental"
+      ],
+      "certificationMeaning": "Certification means a replayable, provenance-preserving runtime evidence record exists."
+    },
+    "claim_boundary": [
+      "Metric legitimacy classifies the kind of claim each metric is allowed to make.",
+      "Direct and derived evidence may be certified as part of the replayable runtime evidence chain.",
+      "Proxy signals are bounded and traceable to observable evidence.",
+      "Interpretive and experimental layers are preserved for review but not certified as hidden-state truth."
+    ]
+  },
+  "metric_legitimacy_summary": {
+    "version": "MLM-1.0",
+    "direct_evidence": [
+      "turnCount",
+      "roleCount",
+      "toolFailureCount"
+    ],
+    "derived_evidence": [
+      "warningOnset",
+      "observableFailure",
+      "leadTime",
+      "warningWindow",
+      "postExitWatch",
+      "boundaryCrossing",
+      "formationTimeline",
+      "evidenceChain",
+      "replayability",
+      "evidenceIntegrity"
+    ],
+    "proxy_signals": [
+      "runtimeDrift",
+      "runtimePressure",
+      "roleTopology",
+      "energeticPressure"
+    ],
+    "interpretive_layers": [
+      "symbolicTime",
+      "emergenceDynamics",
+      "noesisStatelessIdentity"
+    ],
+    "experimental": [],
+    "certified_artifact_scope": {
+      "included_metric_classes": [
+        "Direct Evidence",
+        "Derived Evidence",
+        "Bounded Proxy Signal"
+      ],
+      "preserved_not_certified_as_hidden_state_truth": [
+        "Interpretive Layer",
+        "Experimental"
+      ]
+    }
+  },
+  "certified_artifact_scope": {
+    "schema": "substratex.fieldglass.certified_artifact_scope.v1",
+    "artifact_surface": "humanEvidenceReportData",
+    "included_metric_classes": [
+      "Direct Evidence",
+      "Derived Evidence",
+      "Bounded Proxy Signal"
+    ],
+    "preserved_not_certified_as_hidden_state_truth": [
+      "Interpretive Layer",
+      "Experimental"
+    ],
+    "certification_meaning": "Certification means a replayable, provenance-preserving runtime evidence record exists.",
+    "does_not_certify": [
+      "truthfulness",
+      "correctness",
+      "benchmark superiority",
+      "deployment approval",
+      "hidden-state access",
+      "consciousness",
+      "intent",
+      "root-cause certainty"
+    ]
+  },
+  "runtime_evidence_passport": {
+    "schema": "substratex.runtime_evidence_passport.v1",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "artifact_id": "APERTURE-CER-6753eadcdd506",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "record_identity": {
+      "passport_id": "APERTURE-CER-6753eadcdd506",
+      "artifact_id": "APERTURE-CER-6753eadcdd506",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48",
+      "authority_schema": "substratex.aperture.certified_evidence_authority.v1",
+      "artifact_hash": "not supplied",
+      "generated_at": "2026-10-19T17:26:33.846Z",
+      "fieldglass_build": "Runtime Evidence Passport",
+      "compute_profile": "immutable CER authority",
+      "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "method_contract_registry_digest": "fnv1a32:0f94233c"
+    },
+    "source_identity": {
+      "source_name": "Custom Runtime Evidence",
+      "source_origin": "Operator Source",
+      "source_type": "core",
+      "source_system": "not supplied",
+      "source_system_disclosure": "not supplied",
+      "detected_log_family": "JSONL strict input",
+      "adapter_id": "not supplied",
+      "operational_world": "Monitoring Blind Spots",
+      "raw_source_preserved": true,
+      "canonical_turns": 550,
+      "canonical_roles": [
+        "user",
+        "assistant"
+      ],
+      "source_confidence": "bounded"
+    },
+    "operator_context": {
+      "source_system": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "organization": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "department": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "team": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "environment": {
+        "label": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "incident": {
+        "id": "not supplied",
+        "system": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "time_window": {
+        "year": "not supplied",
+        "start": "not supplied",
+        "end": "not supplied",
+        "source": "not supplied"
+      }
+    },
+    "model_context": {
+      "provider": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model_version_or_date": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "agent_framework": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "toolchain": []
+    },
+    "optional_research_channels": {
+      "embeddings": {
+        "supplied": false,
+        "provider": "not supplied",
+        "model": "not supplied",
+        "disclosure": "not supplied",
+        "claim_boundary": "Embeddings are optional disclosed evidence channels, not required for Aperture compute."
+      },
+      "reference_manifold": {
+        "supplied": false
+      },
+      "calibration_profile": {
+        "supplied": false
+      }
+    },
+    "runtime_formation": {
+      "runtime_state": "Transitional",
+      "formation_class": "Tool-Loop Pressure",
+      "pressure": "High",
+      "computed_boundary": "candidate T25",
+      "recovery": "Not observed",
+      "lead_time": "non-formal watch",
+      "visible_failure_anchor": "not observed"
+    },
+    "integrity": {
+      "frames": 550,
+      "telemetry": 271,
+      "evidence_object": "bound",
+      "replay": "Ready",
+      "claim_boundary": "active",
+      "export": "artifact ready",
+      "metric_scope": "Direct Evidence · Derived Evidence · Bounded Proxy Signals"
+    },
+    "certification_scope": {
+      "certifies": [
+        "input evidence acquired",
+        "runtime evidence computed",
+        "replayable evidence chain generated",
+        "provenance metadata preserved"
+      ],
+      "does_not_certify": [
+        "truthfulness",
+        "correctness",
+        "intent",
+        "hidden-state access",
+        "consciousness",
+        "root-cause certainty",
+        "deployment approval"
+      ],
+      "metric_classes_included": [
+        "Direct Evidence",
+        "Derived Evidence",
+        "Bounded Proxy Signals"
+      ],
+      "interpretive_layers_preserved_not_certified": true
+    },
+    "disclosure_profile": {
+      "contains_sensitive_data": "unknown",
+      "redaction_applied": false,
+      "operator_review_required": true,
+      "export_sensitivity": "treat-as-sensitive",
+      "disclosure_state": "partial"
+    },
+    "claim_boundary": {
+      "context_does_not_force_outcomes": true,
+      "raw_telemetry_preserved": true,
+      "model_identity_not_inferred_unless_supplied": true,
+      "company_identity_not_inferred_unless_supplied": true,
+      "no_hidden_state_claim": true
+    },
+    "evidence_run_id": "APERTURE-CER-6753eadcdd506",
+    "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "identity": {
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "deterministic_run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "canonical_input_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48"
+    },
+    "authority_binding": {
+      "schema": "substratex.aperture.passport_authority_binding.v1",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:27c96b48",
+      "authority_schema": "substratex.aperture.certified_evidence_authority.v1",
+      "immutable_authority": true,
+      "method_contract_registry_digest": "fnv1a32:0f94233c",
+      "method_contract_conformance": "pass"
+    },
+    "method_contract_registry_digest": "fnv1a32:0f94233c",
+    "method_contract_count": 48,
+    "method_contract_authority_ref": "currentEvidenceRun.method_contract_authority",
+    "evidence_seal": "confirmed",
+    "certification_state": "issued",
+    "certified_authority": "currentEvidenceRun.authority_basis"
+  },
+  "passport": {
+    "schema": "substratex.runtime_evidence_passport.v1",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "artifact_id": "APERTURE-CER-6753eadcdd506",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "record_identity": {
+      "passport_id": "APERTURE-CER-6753eadcdd506",
+      "artifact_id": "APERTURE-CER-6753eadcdd506",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "authority_fingerprint": "fnv1a32:4105baf9",
+      "authority_schema": "substratex.aperture.certified_evidence_authority.v1",
+      "artifact_hash": "not supplied",
+      "generated_at": "2026-10-19T17:26:33.846Z",
+      "fieldglass_build": "Runtime Evidence Passport",
+      "compute_profile": "immutable CER authority"
+    },
+    "source_identity": {
+      "source_name": "Custom Runtime Evidence",
+      "source_origin": "Operator Source",
+      "source_type": "core",
+      "source_system": "not supplied",
+      "source_system_disclosure": "not supplied",
+      "detected_log_family": "JSONL strict input",
+      "adapter_id": "not supplied",
+      "operational_world": "Monitoring Blind Spots",
+      "raw_source_preserved": true,
+      "canonical_turns": 550,
+      "canonical_roles": [
+        "user",
+        "assistant"
+      ],
+      "source_confidence": "bounded"
+    },
+    "operator_context": {
+      "source_system": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "organization": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "department": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "team": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "environment": {
+        "label": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "incident": {
+        "id": "not supplied",
+        "system": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "time_window": {
+        "year": "not supplied",
+        "start": "not supplied",
+        "end": "not supplied",
+        "source": "not supplied"
+      }
+    },
+    "model_context": {
+      "provider": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model": {
+        "name": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "model_version_or_date": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "agent_framework": {
+        "value": "not supplied",
+        "disclosure": "not supplied"
+      },
+      "toolchain": []
+    },
+    "optional_research_channels": {
+      "embeddings": {
+        "supplied": false,
+        "provider": "not supplied",
+        "model": "not supplied",
+        "disclosure": "not supplied",
+        "claim_boundary": "Embeddings are optional disclosed evidence channels, not required for Aperture compute."
+      },
+      "reference_manifold": {
+        "supplied": false
+      },
+      "calibration_profile": {
+        "supplied": false
+      }
+    },
+    "runtime_formation": {
+      "runtime_state": "Transitional",
+      "formation_class": "Tool-Loop Pressure",
+      "pressure": "High",
+      "computed_boundary": "candidate T25",
+      "recovery": "Not observed",
+      "lead_time": "non-formal watch",
+      "visible_failure_anchor": "not observed"
+    },
+    "integrity": {
+      "frames": 550,
+      "telemetry": 271,
+      "evidence_object": "bound",
+      "replay": "Ready",
+      "claim_boundary": "active",
+      "export": "artifact ready",
+      "metric_scope": "Direct Evidence · Derived Evidence · Bounded Proxy Signals"
+    },
+    "certification_scope": {
+      "certifies": [
+        "input evidence acquired",
+        "runtime evidence computed",
+        "replayable evidence chain generated",
+        "provenance metadata preserved"
+      ],
+      "does_not_certify": [
+        "truthfulness",
+        "correctness",
+        "intent",
+        "hidden-state access",
+        "consciousness",
+        "root-cause certainty",
+        "deployment approval"
+      ],
+      "metric_classes_included": [
+        "Direct Evidence",
+        "Derived Evidence",
+        "Bounded Proxy Signals"
+      ],
+      "interpretive_layers_preserved_not_certified": true
+    },
+    "disclosure_profile": {
+      "contains_sensitive_data": "unknown",
+      "redaction_applied": false,
+      "operator_review_required": true,
+      "export_sensitivity": "treat-as-sensitive",
+      "disclosure_state": "partial"
+    },
+    "claim_boundary": {
+      "context_does_not_force_outcomes": true,
+      "raw_telemetry_preserved": true,
+      "model_identity_not_inferred_unless_supplied": true,
+      "company_identity_not_inferred_unless_supplied": true,
+      "no_hidden_state_claim": true
+    }
+  },
+  "operator_context": {
+    "source_system": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "organization": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "department": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "team": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "environment": {
+      "label": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "incident": {
+      "id": "not supplied",
+      "system": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "time_window": {
+      "year": "not supplied",
+      "start": "not supplied",
+      "end": "not supplied",
+      "source": "not supplied"
+    }
+  },
+  "model_context": {
+    "provider": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "model": {
+      "name": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "model_version_or_date": {
+      "value": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "agent_framework": {
+      "value": "not supplied",
+      "disclosure": "not supplied"
+    },
+    "toolchain": []
+  },
+  "disclosure_profile": {
+    "contains_sensitive_data": "unknown",
+    "redaction_applied": false,
+    "operator_review_required": true,
+    "export_sensitivity": "treat-as-sensitive",
+    "disclosure_state": "partial"
+  },
+  "report_mode": "concise",
+  "audience": "executive",
+  "artifact_type": "human-readable report preview",
+  "run_authority": {
+    "schema": "substratex.run_authority.v1",
+    "authority_class": "Runtime Evidence Authority",
+    "evidence_record": "Certified Evidence Run",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "evidence_run_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "evidence_seal": "confirmed",
+    "certification_state": "certified",
+    "source_binding": {
+      "source_name": "Custom Runtime Evidence",
+      "source_origin": "Operator Source",
+      "source_type": "core",
+      "source_system": "not supplied",
+      "source_system_disclosure": "not supplied",
+      "detected_log_family": "JSONL strict input",
+      "adapter_id": "not supplied",
+      "operational_world": "Monitoring Blind Spots",
+      "raw_source_preserved": true,
+      "canonical_turns": 550,
+      "canonical_roles": [
+        "user",
+        "assistant"
+      ],
+      "source_confidence": "bounded"
+    },
+    "claim_boundary": null,
+    "preservation_state": "preservation_ready",
+    "export_authority": "Runtime Evidence Authority"
+  },
+  "evidence_flow": [
+    {
+      "stage": "source_evidence",
+      "label": "Source",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "Custom Runtime Evidence",
+      "source_path": "currentEvidenceRun.source_authority_envelope / Runtime Evidence Passport.source_identity",
+      "claim_boundary": "Raw source is preserved; no truth adjudication.",
+      "object_count": 12,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "canonical_runtime",
+      "label": "Canonical",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "550 canonical turn(s)",
+      "source_path": "currentEvidenceRun.canonical_runtime_record / canonical / zsf.canonical",
+      "claim_boundary": "Structural normalization only; no telemetry or evidence outcomes are created.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_spine",
+      "label": "Spine",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "550 runtime frame(s)",
+      "source_path": "currentEvidenceRun.canonicalRuntimeSpine / runtimeSpine / runtimePlaybackFrames",
+      "claim_boundary": "Replayable frame projection of canonical runtime only.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_recorder",
+      "label": "Recorder",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "Frame series bound; no explicit ledger events",
+      "source_path": "currentEvidenceRun.runtime_event_ledger / runtimeEventLedger / recorder events",
+      "claim_boundary": "Event evidence and marker binding; not causal proof.",
+      "object_count": 550,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_telemetry",
+      "label": "Telemetry",
+      "evidence_class": "direct",
+      "status": "Present",
+      "available": true,
+      "value": "3 telemetry field(s)",
+      "source_path": "currentEvidenceRun.telemetry / metrics / zsf.final.metrics",
+      "claim_boundary": "Deterministic observable-output telemetry only.",
+      "object_count": 3,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "instrument_projection",
+      "label": "Projection",
+      "evidence_class": "derived",
+      "status": "Present",
+      "available": true,
+      "value": "9 CER-bound instrument finding(s)",
+      "source_path": "currentEvidenceRun.instrument_projection_findings / projection_findings.findings",
+      "claim_boundary": "Read-only Level 2 projections; instruments do not create telemetry or CER.",
+      "object_count": 9,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "operator_translation",
+      "label": "Translation",
+      "evidence_class": "interpretive",
+      "status": "Present",
+      "available": true,
+      "value": "Human Read bound",
+      "source_path": "currentEvidenceRun.human_read / zsf.final.esl_v2.human_read_layer / runtimeEvidenceInterpretation",
+      "claim_boundary": "Translation and operational framing only; no evidence creation or claim-boundary extension.",
+      "object_count": 31,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "runtime_evidence_passport",
+      "label": "Passport",
+      "evidence_class": "certified",
+      "status": "Present",
+      "available": true,
+      "value": "APERTURE-CER-6753eadcdd506",
+      "source_path": "currentEvidenceRun.runtime_evidence_passport / runtimeEvidencePassport",
+      "claim_boundary": "Certifies evidence identity, lineage, hash, and authority boundary; not factual truth.",
+      "object_count": 26,
+      "fingerprint": "APERTURE-CER-6753eadcdd506",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    },
+    {
+      "stage": "evidencecommons_preservation",
+      "label": "Evidence Commons",
+      "evidence_class": "preservation",
+      "status": "Present",
+      "available": true,
+      "value": "Normalized preservation manifest",
+      "source_path": "Evidence Commons bundle.manifest / currentEvidenceRun.preserve_export",
+      "claim_boundary": "Preserves the certified evidence object and projections; does not add claims.",
+      "object_count": 21,
+      "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+      "run_id": "APERTURE-CER-6753eadcdd506",
+      "passport_id": "APERTURE-CER-6753eadcdd506"
+    }
+  ],
+  "runtime_evidence_conveyor": {
+    "schema": "substratex.fieldglass.runtime_evidence_conveyor.v1",
+    "sequence": "Source → Canonical → Spine → Recorder → Telemetry → Projection → Translation → Passport → Evidence Commons",
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "chain_intact": true,
+    "missing": [],
+    "stages": [
+      {
+        "stage": "source_evidence",
+        "label": "Source",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "Custom Runtime Evidence",
+        "source_path": "currentEvidenceRun.source_authority_envelope / Runtime Evidence Passport.source_identity",
+        "claim_boundary": "Raw source is preserved; no truth adjudication.",
+        "object_count": 12,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "canonical_runtime",
+        "label": "Canonical",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "550 canonical turn(s)",
+        "source_path": "currentEvidenceRun.canonical_runtime_record / canonical / zsf.canonical",
+        "claim_boundary": "Structural normalization only; no telemetry or evidence outcomes are created.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_spine",
+        "label": "Spine",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "550 runtime frame(s)",
+        "source_path": "currentEvidenceRun.canonicalRuntimeSpine / runtimeSpine / runtimePlaybackFrames",
+        "claim_boundary": "Replayable frame projection of canonical runtime only.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_recorder",
+        "label": "Recorder",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "Frame series bound; no explicit ledger events",
+        "source_path": "currentEvidenceRun.runtime_event_ledger / runtimeEventLedger / recorder events",
+        "claim_boundary": "Event evidence and marker binding; not causal proof.",
+        "object_count": 550,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_telemetry",
+        "label": "Telemetry",
+        "evidence_class": "direct",
+        "available": true,
+        "status": "Present",
+        "value": "3 telemetry field(s)",
+        "source_path": "currentEvidenceRun.telemetry / metrics / zsf.final.metrics",
+        "claim_boundary": "Deterministic observable-output telemetry only.",
+        "object_count": 3,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "instrument_projection",
+        "label": "Projection",
+        "evidence_class": "derived",
+        "available": true,
+        "status": "Present",
+        "value": "9 CER-bound instrument finding(s)",
+        "source_path": "currentEvidenceRun.instrument_projection_findings / projection_findings.findings",
+        "claim_boundary": "Read-only Level 2 projections; instruments do not create telemetry or CER.",
+        "object_count": 9,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "operator_translation",
+        "label": "Translation",
+        "evidence_class": "interpretive",
+        "available": true,
+        "status": "Present",
+        "value": "Human Read bound",
+        "source_path": "currentEvidenceRun.human_read / zsf.final.esl_v2.human_read_layer / runtimeEvidenceInterpretation",
+        "claim_boundary": "Translation and operational framing only; no evidence creation or claim-boundary extension.",
+        "object_count": 31,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "runtime_evidence_passport",
+        "label": "Passport",
+        "evidence_class": "certified",
+        "available": true,
+        "status": "Present",
+        "value": "APERTURE-CER-6753eadcdd506",
+        "source_path": "currentEvidenceRun.runtime_evidence_passport / runtimeEvidencePassport",
+        "claim_boundary": "Certifies evidence identity, lineage, hash, and authority boundary; not factual truth.",
+        "object_count": 26,
+        "fingerprint": "APERTURE-CER-6753eadcdd506",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      },
+      {
+        "stage": "evidencecommons_preservation",
+        "label": "Evidence Commons",
+        "evidence_class": "preservation",
+        "available": true,
+        "status": "Present",
+        "value": "Normalized preservation manifest",
+        "source_path": "Evidence Commons bundle.manifest / currentEvidenceRun.preserve_export",
+        "claim_boundary": "Preserves the certified evidence object and projections; does not add claims.",
+        "object_count": 21,
+        "fingerprint": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506"
+      }
+    ],
+    "dependencies": {
+      "signal_authority": {
+        "available": false,
+        "source_path": "currentEvidenceRun.signal_authority / signal_authority_manifest",
+        "relation": "governs telemetry and projection eligibility; not a separate conveyor payload stage"
+      },
+      "aia_foundation": {
+        "available": true,
+        "source_path": "currentEvidenceRun.foundation_substrates.aia / foundation_contexts.aia",
+        "relation": "read-only foundation substrate consumed by instruments"
+      },
+      "metric_legitimacy": {
+        "available": true,
+        "source_path": "currentEvidenceRun.metric_legitimacy_matrix",
+        "relation": "classifies direct, derived, proxy, and interpretive evidence"
+      },
+      "reim": {
+        "available": false,
+        "source_path": "currentEvidenceRun.runtimeEvidenceInterpretation / zsf.final",
+        "relation": "interpretive classification consumed by Human Read"
+      },
+      "operational_world": {
+        "available": true,
+        "source_path": "currentEvidenceRun.operational_world / Passport source identity",
+        "relation": "meaning projection and export metadata only; evidence authority unchanged"
+      }
+    }
+  },
+  "foundation_references": {
+    "aia": {
+      "available": true,
+      "source_path": "currentEvidenceRun.foundation_contexts.aia",
+      "mutation_authority": "none",
+      "evidence_role": "foundation substrate"
+    },
+    "reim": {
+      "available": false,
+      "source_path": "currentEvidenceRun / zsf.final.interpretation_validation_layer",
+      "mutation_authority": "none",
+      "evidence_role": "interpretive translation"
+    },
+    "signal_authority": {
+      "available": false,
+      "source_path": "currentEvidenceRun.signal_authority_manifest",
+      "mutation_authority": "none"
+    },
+    "metric_legitimacy": {
+      "available": true,
+      "source_path": "currentEvidenceRun.metric_legitimacy_matrix",
+      "mutation_authority": "none"
+    },
+    "instrument_findings": {
+      "available": true,
+      "source_path": "currentEvidenceRun.instrument_projection_findings",
+      "mutation_authority": "none",
+      "evidence_role": "projection"
+    }
+  },
+  "projection_authority": {
+    "source": "Certified Evidence Record",
+    "creates_new_evidence": false,
+    "mutates_telemetry": false,
+    "extends_claim_boundary": false
+  },
+  "record_id": "APERTURE-CER-6753eadcdd506",
+  "passport_id": "APERTURE-CER-6753eadcdd506",
+  "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+  "certified_identity": {
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "identity_aligned": true,
+    "authority": "Runtime Evidence Authority",
+    "method_contract_registry_digest": "fnv1a32:0f94233c",
+    "method_contract_conformance": "pass"
+  },
+  "method_contract_conformance": {
+    "status": "pass",
+    "pass": true,
+    "registry_digest": "fnv1a32:0f94233c",
+    "certification_critical": true
+  },
+  "authorities": {
+    "runtime_temporal_evidence": {
+      "schema": "substratex.fieldglass.runtime_temporal_evidence.v1",
+      "identity": {
+        "run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_id": "APERTURE-CER-6753eadcdd506",
+        "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "passport_run_id": "APERTURE-CER-6753eadcdd506",
+        "passport_canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+        "alignment_complete": true,
+        "run_aligned": true,
+        "hash_aligned": true,
+        "alignment_status": "aligned",
+        "aligned": true
+      },
+      "coordinate_system": {
+        "primary": "source_turn",
+        "frame_count": 550,
+        "first_frame_index": 1,
+        "last_frame_index": 550,
+        "first_canonical_turn": 1,
+        "last_canonical_turn": 550,
+        "first_source_turn": 1,
+        "last_source_turn": 275
+      },
+      "horizon": {
+        "frame_index": 550,
+        "canonical_turn": 550,
+        "source_turn": 275,
+        "primary_turn": 275
+      },
+      "formal": {
+        "t_star": null,
+        "t_star_coordinate": null,
+        "t_star_confirmed": false,
+        "t_star_confirmation_basis": null,
+        "t_star_source_path": null,
+        "tf": null,
+        "tf_coordinate": null,
+        "tf_supplied": false,
+        "tf_confirmed": false,
+        "tf_source_path": null,
+        "delta_t": null,
+        "delta_t_status": "unavailable"
+      },
+      "staged": {
+        "t_aw": 2,
+        "t_aw_coordinate": "source_turn",
+        "t_aw_source_path": "playback_annotation",
+        "t_candidate": 25,
+        "t_candidate_coordinate": "source_turn",
+        "t_candidate_source_path": "playback_annotation",
+        "collapse_excursions": [
+          {
+            "id": "collapse_proximity-2",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 100%.",
+            "severity": "critical",
+            "frame_index": 2,
+            "canonical_turn": 4,
+            "source_turn": 2,
+            "primary_turn": 2,
+            "primary_coordinate": "source_turn",
+            "step": 2,
+            "turn": 2,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-6",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 6,
+            "canonical_turn": 12,
+            "source_turn": 6,
+            "primary_turn": 6,
+            "primary_coordinate": "source_turn",
+            "step": 6,
+            "turn": 6,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-14",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 85%.",
+            "severity": "critical",
+            "frame_index": 14,
+            "canonical_turn": 28,
+            "source_turn": 14,
+            "primary_turn": 14,
+            "primary_coordinate": "source_turn",
+            "step": 14,
+            "turn": 14,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-20",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 20,
+            "canonical_turn": 40,
+            "source_turn": 20,
+            "primary_turn": 20,
+            "primary_coordinate": "source_turn",
+            "step": 20,
+            "turn": 20,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-24",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 86%.",
+            "severity": "critical",
+            "frame_index": 24,
+            "canonical_turn": 50,
+            "source_turn": 25,
+            "primary_turn": 25,
+            "primary_coordinate": "source_turn",
+            "step": 25,
+            "turn": 25,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-43",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 43,
+            "canonical_turn": 88,
+            "source_turn": 44,
+            "primary_turn": 44,
+            "primary_coordinate": "source_turn",
+            "step": 44,
+            "turn": 44,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-55",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 55,
+            "canonical_turn": 112,
+            "source_turn": 56,
+            "primary_turn": 56,
+            "primary_coordinate": "source_turn",
+            "step": 56,
+            "turn": 56,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-70",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 88%.",
+            "severity": "critical",
+            "frame_index": 70,
+            "canonical_turn": 142,
+            "source_turn": 71,
+            "primary_turn": 71,
+            "primary_coordinate": "source_turn",
+            "step": 71,
+            "turn": 71,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-76",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 94%.",
+            "severity": "critical",
+            "frame_index": 76,
+            "canonical_turn": 154,
+            "source_turn": 77,
+            "primary_turn": 77,
+            "primary_coordinate": "source_turn",
+            "step": 77,
+            "turn": 77,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-92",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 92,
+            "canonical_turn": 186,
+            "source_turn": 93,
+            "primary_turn": 93,
+            "primary_coordinate": "source_turn",
+            "step": 93,
+            "turn": 93,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-108",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 108,
+            "canonical_turn": 218,
+            "source_turn": 109,
+            "primary_turn": 109,
+            "primary_coordinate": "source_turn",
+            "step": 109,
+            "turn": 109,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-127",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 127,
+            "canonical_turn": 258,
+            "source_turn": 129,
+            "primary_turn": 129,
+            "primary_coordinate": "source_turn",
+            "step": 129,
+            "turn": 129,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-141",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 81%.",
+            "severity": "critical",
+            "frame_index": 141,
+            "canonical_turn": 286,
+            "source_turn": 143,
+            "primary_turn": 143,
+            "primary_coordinate": "source_turn",
+            "step": 143,
+            "turn": 143,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-149",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 149,
+            "canonical_turn": 302,
+            "source_turn": 151,
+            "primary_turn": 151,
+            "primary_coordinate": "source_turn",
+            "step": 151,
+            "turn": 151,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-155",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 82%.",
+            "severity": "critical",
+            "frame_index": 155,
+            "canonical_turn": 314,
+            "source_turn": 157,
+            "primary_turn": 157,
+            "primary_coordinate": "source_turn",
+            "step": 157,
+            "turn": 157,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-159",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 90%.",
+            "severity": "critical",
+            "frame_index": 159,
+            "canonical_turn": 322,
+            "source_turn": 161,
+            "primary_turn": 161,
+            "primary_coordinate": "source_turn",
+            "step": 161,
+            "turn": 161,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-166",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 91%.",
+            "severity": "critical",
+            "frame_index": 166,
+            "canonical_turn": 336,
+            "source_turn": 168,
+            "primary_turn": 168,
+            "primary_coordinate": "source_turn",
+            "step": 168,
+            "turn": 168,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-168",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 91%.",
+            "severity": "critical",
+            "frame_index": 168,
+            "canonical_turn": 340,
+            "source_turn": 170,
+            "primary_turn": 170,
+            "primary_coordinate": "source_turn",
+            "step": 170,
+            "turn": 170,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-185",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 86%.",
+            "severity": "critical",
+            "frame_index": 185,
+            "canonical_turn": 374,
+            "source_turn": 187,
+            "primary_turn": 187,
+            "primary_coordinate": "source_turn",
+            "step": 187,
+            "turn": 187,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-194",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 83%.",
+            "severity": "critical",
+            "frame_index": 194,
+            "canonical_turn": 392,
+            "source_turn": 196,
+            "primary_turn": 196,
+            "primary_coordinate": "source_turn",
+            "step": 196,
+            "turn": 196,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-203",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 90%.",
+            "severity": "critical",
+            "frame_index": 203,
+            "canonical_turn": 410,
+            "source_turn": 205,
+            "primary_turn": 205,
+            "primary_coordinate": "source_turn",
+            "step": 205,
+            "turn": 205,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-208",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 208,
+            "canonical_turn": 424,
+            "source_turn": 212,
+            "primary_turn": 212,
+            "primary_coordinate": "source_turn",
+            "step": 212,
+            "turn": 212,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-211",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 80%.",
+            "severity": "critical",
+            "frame_index": 211,
+            "canonical_turn": 430,
+            "source_turn": 215,
+            "primary_turn": 215,
+            "primary_coordinate": "source_turn",
+            "step": 215,
+            "turn": 215,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-216",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 216,
+            "canonical_turn": 440,
+            "source_turn": 220,
+            "primary_turn": 220,
+            "primary_coordinate": "source_turn",
+            "step": 220,
+            "turn": 220,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-222",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 85%.",
+            "severity": "critical",
+            "frame_index": 222,
+            "canonical_turn": 452,
+            "source_turn": 226,
+            "primary_turn": 226,
+            "primary_coordinate": "source_turn",
+            "step": 226,
+            "turn": 226,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-231",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 89%.",
+            "severity": "critical",
+            "frame_index": 231,
+            "canonical_turn": 470,
+            "source_turn": 235,
+            "primary_turn": 235,
+            "primary_coordinate": "source_turn",
+            "step": 235,
+            "turn": 235,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-233",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 84%.",
+            "severity": "critical",
+            "frame_index": 233,
+            "canonical_turn": 474,
+            "source_turn": 237,
+            "primary_turn": 237,
+            "primary_coordinate": "source_turn",
+            "step": 237,
+            "turn": 237,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-241",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 93%.",
+            "severity": "critical",
+            "frame_index": 241,
+            "canonical_turn": 490,
+            "source_turn": 245,
+            "primary_turn": 245,
+            "primary_coordinate": "source_turn",
+            "step": 245,
+            "turn": 245,
+            "source": "playback_annotation"
+          },
+          {
+            "id": "collapse_proximity-254",
+            "type": "collapse_proximity",
+            "label": "Collapse proximity rising",
+            "basis": "Instability pressure reached 79%.",
+            "severity": "critical",
+            "frame_index": 254,
+            "canonical_turn": 516,
+            "source_turn": 258,
+            "primary_turn": 258,
+            "primary_coordinate": "source_turn",
+            "step": 258,
+            "turn": 258,
+            "source": "playback_annotation"
+          }
+        ],
+        "persistence_status": "not_satisfied",
+        "anchor_order_status": "valid"
+      },
+      "intervals": {
+        "weakening_to_candidate": {
+          "start": 2,
+          "end": 25,
+          "turns": 23,
+          "coordinate": "source_turn",
+          "status": "measured"
+        },
+        "candidate_to_exit": null,
+        "formal_delta_t": null,
+        "post_exit_observed_turns": null,
+        "candidate_watch_turns": {
+          "start": 25,
+          "end": 275,
+          "turns": 250,
+          "coordinate": "source_turn",
+          "status": "measured"
+        }
+      },
+      "disagreements": [],
+      "conformance": {
+        "identity_aligned": true,
+        "coordinate_domains_match": true,
+        "formal_anchor_consistent": true,
+        "staged_order_valid": true,
+        "delta_t_valid": true,
+        "preservation_imprint_valid": true
+      },
+      "fingerprint": "rl1314-72d82359"
+    },
+    "chronodynamic_intelligence": null
+  },
+  "export_finalization": {
+    "schema": "substratex.aperture.export_finalization.v1",
+    "pass": "R574_FINAL_CERTIFIED_EXPORT_AUTHORITY_CLOSURE",
+    "status": "finalized",
+    "kind": "human-readable report preview",
+    "generated_at": "2026-10-19T17:31:33.459Z",
+    "authority_refs": {
+      "passport": "runtime_evidence_passport",
+      "rtea": "authorities.runtime_temporal_evidence",
+      "chronodynamics": "authorities.chronodynamic_intelligence"
+    },
+    "recursive_authority_policy": "superseded authority snapshots replaced by final-authority references",
+    "bootstrap_state_exported_as_current": false,
+    "contradiction_gate": {
+      "schema": "substratex.aperture.certified_export_contradiction_gate.v1",
+      "pass": true,
+      "status": "PASS",
+      "failures": [],
+      "checks": {
+        "root_identity": true,
+        "method_contract_conformance_required": true,
+        "cer_bound_identity_complete": true,
+        "no_unconfirmed_basin_exit_label": true,
+        "no_chronodynamics_basin_exit_without_tstar": true,
+        "no_stale_passport_placeholders": true,
+        "no_false_temporal_identity_conformance": true,
+        "no_bootstrap_smoke_as_current": true,
+        "no_stale_legacy_manifest_aliases": true,
+        "no_internal_cache_signature": true,
+        "no_superseded_export_finalization_provenance": true
+      }
+    }
+  }
+}

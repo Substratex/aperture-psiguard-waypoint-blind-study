@@ -1,0 +1,158 @@
+{
+  "schema": "substratex.aperture.identity_reconciliation.v1",
+  "status": "PASS_IDENTITY_BOOKKEEPING_DEFECT_ISOLATED",
+  "created_at_utc": "2026-10-19T17:53:30Z",
+  "experiment": "PsiGuard / Waypoint T1-T275 blind retrospective + prospective prefix validation",
+  "external_disclosure_received": false,
+  "scope": "canonical identity reconciliation only; no detector, telemetry, regime, temporal marker, instrument finding, or prospective prefix science recomputed",
+  "browser_certified_identity": {
+    "run_id": "APERTURE-CER-6753eadcdd506",
+    "passport_id": "APERTURE-CER-6753eadcdd506",
+    "canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "canonicalization_version": "2.0",
+    "identity_contract": "semantic_canonical_evidence",
+    "hash_algorithm": "SHA-256",
+    "hash_basis": [
+      "semantic_canonical_evidence",
+      "config_version",
+      "metric_version",
+      "canonicalization_version"
+    ],
+    "hash_scope": "semantic_canonical_evidence_plus_config_metric_canonicalization_versions",
+    "config_version": "public-v1",
+    "metric_version": "fieldglass-metrics-v1",
+    "independently_recomputed_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+    "recomputed_matches_browser": true
+  },
+  "superseded_harness_identity": {
+    "run_id": "APERTURE-CER-f906ca496e167",
+    "canonical_hash": "f906ca496e167b8f67487804023a3ed536c3780d9376faca4044836ca34184e0",
+    "source": "Phase-3 prospective prefix ledger / Blind Result Lock",
+    "classification": "harness_identity_derivation_mismatch",
+    "production_identity_equivalent": false,
+    "historical_hash_constructor_preserved_in_available_harness_artifacts": false,
+    "boundary": "The available Phase-3 outputs preserve the resulting hash/run ID but not the serializer/hash-basis metadata needed to reproduce f906 exactly. It is therefore not defensible to label f906 as production canonicalization v1 or v2. What is established is that it is not the terminal r.5.7.4 semantic canonical identity."
+  },
+  "event_spine_comparison": {
+    "source_event_count": 550,
+    "browser_canonical_event_count": 550,
+    "count_match": true,
+    "fields_compared": [
+      "content",
+      "role",
+      "source_turn",
+      "source_event_ordinal",
+      "completion_state",
+      "canonical_turn"
+    ],
+    "mismatch_counts": {
+      "content": 0,
+      "role": 0,
+      "source_turn": 0,
+      "source_event_ordinal": 0,
+      "completion_state": 0,
+      "canonical_turn": 0
+    },
+    "total_mismatches": 0,
+    "exact_match_on_requested_identity_fields": true,
+    "mismatch_examples": [],
+    "expected_canonical_enrichment_only": [
+      "source_event schema normalized to canonical_event schema",
+      "actor_id normalized to lowercase canonical actor IDs",
+      "role_class / authority_weight / telemetry_weight attached",
+      "measurement_status / telemetry eligibility attached",
+      "canonical provenance and canonical_turn attached"
+    ]
+  },
+  "science_state_equivalence_without_recompute": {
+    "measurement_count": {
+      "harness": 271,
+      "browser": 271,
+      "exact_match": true
+    },
+    "method_contract_count": {
+      "harness": 48,
+      "browser": 48,
+      "exact_match": true
+    },
+    "method_contract_status": {
+      "harness": "pass",
+      "browser": "pass",
+      "exact_match": true
+    },
+    "telemetry_exact_checks": {
+      "phi": {
+        "harness": 0.6891615540422296,
+        "browser": 0.6891615540422296,
+        "exact_match": true
+      },
+      "instability_vs_stress": {
+        "harness": 0.3108384459577704,
+        "browser": 0.3108384459577704,
+        "exact_match": true
+      },
+      "drift": {
+        "harness": 0.5437194330842275,
+        "browser": 0.5437194330842275,
+        "exact_match": true
+      }
+    },
+    "final_temporal_authority": {
+      "regime": "Transitional",
+      "t_aw": 2,
+      "t_candidate": 25,
+      "t_star": null,
+      "t_star_confirmed": false,
+      "tf": null,
+      "formal_delta_t": null,
+      "candidate_watch_turns": {
+        "start": 25,
+        "end": 275,
+        "turns": 250,
+        "coordinate": "source_turn",
+        "status": "measured"
+      }
+    },
+    "harness_final_temporal": {
+      "regime": null,
+      "t_aw": 2,
+      "t_candidate": 25,
+      "t_star": null,
+      "t_star_confirmed": false,
+      "tf": null,
+      "delta_t": null
+    },
+    "science_recomputed": false,
+    "prospective_rows_modified": false
+  },
+  "source_and_build_binding": {
+    "blind_source_file": "PsiGuard_T1-T275_BLIND_APERTURE.jsonl",
+    "blind_source_sha256": "5a66a0300bd6cfca74e0c0ff022944b1ec39eaa5f3ad254ac2aed7cc9a87f3e6",
+    "source_turns": 275,
+    "canonical_events": 550,
+    "psiguard_annotations_used": false,
+    "science_build_release": "r.5.7.4",
+    "science_build_sha256": "921ece3edfb031ffb43035d526f8b4aacbfc118b0858ddc17590dc392747e0fb",
+    "export_hotfix_release": "r.5.7.4.1",
+    "export_hotfix_sha256": "a7bdec193eabc0f8901be243fd701d5575a5b9a67fa7dd7b574a39e83ae47a49",
+    "export_hotfix_scope": "Preserve/Export download-state only; no science change"
+  },
+  "supersession": {
+    "original_lock_file": "APERTURE_T1-T275_BLIND_RESULT_LOCK.json",
+    "original_lock_file_sha256": "c594d16ad7e908a9b10ce97d56cb313dcf66c5e135c976c6aaa76845cde4ba91",
+    "original_lock_fingerprint_sha256": "cae2ee0f595013731c4289456f0440e351d3573b8857ead61bd416c77fec09bb",
+    "original_lock_preserved": true,
+    "superseded_for_identity_only": true,
+    "prospective_prefix_ledger_file": "APERTURE_T1-T275_PROSPECTIVE_PREFIX_LEDGER_FINAL.json",
+    "prospective_prefix_ledger_sha256": "1e4e701d676ba69ffc4ad67bb6ad4c56df07f2abab0dc1d7490f084689392f9a",
+    "ledger_science_retained_unchanged": true,
+    "ledger_harness_identity_columns_non_authoritative_for_final_production_identity": true
+  },
+  "decision": {
+    "event_set_materially_differs": false,
+    "prospective_sweep_regeneration_required": false,
+    "blind_result_lock_v2_authorized": true,
+    "bradley_package_status_after_v2": "READY_FOR_PRE_DISCLOSURE_HANDOFF",
+    "reason": "The source and browser canonical event spines are identical on all requested evidentiary fields; the terminal production identity independently recomputes to the browser-certified hash; the old mismatch is isolated to harness identity bookkeeping, while the prospective science remains frozen and unchanged."
+  }
+}

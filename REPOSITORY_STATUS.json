@@ -1,0 +1,15 @@
+{
+  "schema": "substratex.aperture.psiguard_waypoint_pre_disclosure_repository.v1",
+  "status": "FROZEN_BEFORE_PSIGUARD_COORDINATE_DISCLOSURE",
+  "certified_run_id": "APERTURE-CER-6753eadcdd506",
+  "certified_canonical_hash": "6753eadcdd5067e0262658efd7ea29d3aa72c599c59a33313f61bac51b2dcedd",
+  "science_release": "r.5.7.4",
+  "export_release": "r.5.7.4.1",
+  "psiguard_coordinates_received": false,
+  "aperture_recompute_after_disclosure_permitted": false,
+  "authoritative_blind_lock": "02_LOCK/APERTURE_T1-T275_BLIND_RESULT_LOCK_v2.json",
+  "superseded_lock_preserved": "05_IDENTITY_AUDIT/APERTURE_T1-T275_BLIND_RESULT_LOCK_v1_SUPERSEDED.json",
+  "blind_source": "06_BLIND_SOURCE/PsiGuard_T1-T275_BLIND_APERTURE.jsonl",
+  "prospective_ledger": "03_PROSPECTIVE/APERTURE_T1-T275_PROSPECTIVE_PREFIX_LEDGER_FINAL_FROZEN.csv",
+  "evidence_horizon_sensitivity_discovery_preserved_pre_unblinding": true
+}

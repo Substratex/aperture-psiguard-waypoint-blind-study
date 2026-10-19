@@ -1,0 +1,53 @@
+Selected Aperture™ Runtime Evidence Views — Bradley / Waypoint T1–T275 Blind Run
+
+These images are visual projections of the same frozen certified Runtime Evidence Record, APERTURE-CER-6753eadcdd506. They are included to make the machine-readable evidence family easier to inspect. The Runtime Evidence Artifact, Passport, Casefile, Validator, forensic reports, prospective ledger, and preservation bundles remain the authoritative records behind these views.
+
+-
+
+Image 01 — Runtime Evidence Passport
+Aperture’s issued Runtime Evidence Passport for the frozen T1–T275 run. The Passport binds the reconstructed interaction to the certified Runtime Evidence Record APERTURE-CER-6753eadcdd506, covering 550 canonical frames and 271 eligible telemetry measurements. It records the final formation posture as Transitional, pressure as High, and the primary bounded finding as Tool-Loop Pressure. Formal lead time remains not computable because the run does not establish both a confirmed Basin Exit t* and an independently supplied observable-failure anchor tf.
+
+-
+
+Image 02 — Runtime Evidence Brief / Formation Overview
+The operator-facing summary of the completed trajectory. Aperture resolves the run as a Transitional formation with retrospective weakening beginning at T2 and a candidate boundary at T25, while explicitly leaving Basin Exit unresolved and observable failure unsupplied. The visual steering span T2 → T25 represents retrospective formation structure; the broader trajectory remains an open candidate watch through the observed T275 run boundary rather than a confirmed failure interval.
+
+-
+
+Image 03 — Seismo: Runtime Field / Worldline
+The Seismo instrument projects the certified run as a frame-indexed runtime worldline. It combines stability, drift, pressure, continuity, basin proximity, and recovery posture while retaining the governing temporal constraints: T2 weakening, T25 candidate boundary, t* not confirmed, and tf not supplied. The inspector exposes the long open-watch condition from T25→T275, allowing the trajectory to be examined without converting candidate-boundary evidence into a formal Basin Exit claim.
+
+-
+
+Image 04 — Worldline Formation / Certified Frame Path
+A higher-level reconstruction of how the observed trajectory formed across the full run. Aperture resolves the progression as Stable → Weakening at T2 → Candidate Boundary at T25, while the subsequent Basin Exit and Failure stages remain unresolved. The waveform is a schematic evidence projection rather than a literal physical path, and the lower certified-frame replay exposes the source-bound event path supporting the formation. This view makes the central result visually explicit: significant longitudinal structure formed, but Aperture did not authorize a formal failure boundary.
+
+-
+
+Image 05 — Worldline Reconstruction
+The full canonical/measurement alignment of Bradley and Waypoint’s conversation. Aperture converts the originally flat interaction into a 550-event longitudinal trajectory joined to 271 eligible measurements, while preserving explicit unmeasured or unavailable gaps rather than silently filling them. The investigation guide identifies weakening at T2, candidate formation at T25, a dominant Transitional posture, and Tool-Loop Pressure as the supported interpretation. No confirmed Basin Exit, observable failure, or verified recovery is asserted.
+
+-
+
+Image 06 — Benchmark Bridge / Operational Risk Translation
+The Bridge translates Runtime Evidence into an operational interpretation layer without treating Aperture as an official benchmark scorer. It reports a Runtime Trust Score of 65/100, Runtime Evidence Quality of 74/100, and a High operational-review posture, while identifying an AgentBench/ToolBench-like contextual resemblance and a 41% capability-runtime gap. The right-side evidence boundary remains explicit: prospective forecasting is not claimed, formal Δt is unavailable, and the screen does not authorize deployment, benchmark scoring, or failure prediction.
+
+-
+
+Image 07 — Chronos: Temporal Evidence Map
+The Chronos instrument exposes the temporal organization of the run beyond ordinary turn order. The map projects frame-indexed temporal evidence alongside temporal viscosity, compression, echo-time gradient, shear, and symbolic-time curvature, while the Chronodynamic Intelligence layer compares evidence-supported continuation postures such as stable, recovery, drift, and collapse. These values characterize the temporal structure of the observed run; they are not calibrated probabilities of future behavior.
+
+-
+
+Image 08 — Ξ Pressure / Energetics
+The Ξ Pressure instrument decomposes where observable runtime pressure is concentrated. For this run it reports an overall 50/100 pressure index, 100% weighted boundary load, 159 boundary-cost events, 11% stable-motion ratio, 29% correction load, 12% Tool-I/O pressure, and 24% temporal load. The adjacent ZSER field is a deterministic synthetic diagnostic seeded from the certified run and is kept explicitly separate from the evidentiary measurements—it is a modeling adjunct, not a claim of literal physical energy or hidden model mechanics.
+
+-
+
+Image 09 — Failure Exposure / Cognitive Cartography
+Aperture decomposes Composite Failure Exposure across five observable channels: EPI pressure 50%, Boundary 100%, Tool-I/O 12%, Correction 29%, and Temporal 100%, producing a composite exposure reading of 58% / Critical. The purpose of the view is to show where exposure is concentrated rather than collapsing the run into a single risk label. Critically, high failure exposure is not equivalent to observed failure: the certified record still contains no confirmed t*, no supplied tf, and therefore no formal lead-time claim.
+
+-
+
+Image 10 — Δ Drift Engine
+The Drift Engine projects how runtime behavior is moving relative to observable anchors and competing attractor-like structures. The current projection is Elevated, with lexical drift at 78%, early warning at 70%, coherence lock at 63%, and collapse-pressure projection at 100%, while the field map shows competing pulls from the Task Anchor, Tool-Loop Attractor, Failure Attractor, Role Fragmentation, and Recovery Anchor. Recovery Anchor is the strongest current pull in this projection. The instrument is explicitly bounded to observable runtime evidence and does not claim access to hidden state, intent, consciousness, or internal causal mechanisms.
