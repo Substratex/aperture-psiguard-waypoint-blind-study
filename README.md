@@ -113,7 +113,7 @@ This study arose from an experimental collaboration between **Arjay Asadi / Subs
 
 ---
 
-**SubstrateX® — Runtime Evidence Infrastructure**  
-**Aperture™ — Runtime Evidence Observatory**  
 **SubstrateX® — Longitudinal Labs**
 **Intelligence in Motion™**
+**SubstrateX® — Runtime Evidence Infrastructure**  
+**Aperture™ — Runtime Evidence Observatory**  
