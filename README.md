@@ -76,8 +76,6 @@ For the full handoff guide written specifically for Bradley, see [`00_README_FOR
 
 The repository includes:
 
-- **Paper VIII — Blind Comparative Validation of Long-Horizon Runtime Stability**, Version 0.1, registered pre-unblinding manuscript;
-- **Discovery Note 01 — Evidence-Horizon Sensitivity in Longitudinal Runtime Evidence**, frozen pre-unblinding internal discovery record;
 - the complete claim-revision and prospective prefix ledgers;
 - the browser-vs-harness identity reconciliation record;
 - the complete fresh Aperture export family.
