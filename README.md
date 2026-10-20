@@ -112,6 +112,3 @@ This study arose from an experimental collaboration between **Arjay Asadi / Subs
 ---
 
 **SubstrateX® — Longitudinal Labs**
-
-**SubstrateX® — Runtime Evidence Infrastructure**  
-**Aperture™ — Runtime Evidence Observatory**  
