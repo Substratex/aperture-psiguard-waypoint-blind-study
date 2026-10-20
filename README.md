@@ -111,4 +111,4 @@ This study arose from an experimental collaboration between **Arjay Asadi / Subs
 
 ---
 
-**SubstrateX® — Longitudinal Labs**
+**SubstrateX® — Longitudinal Labs — Instrumenting Intelligence in Motion™** 
